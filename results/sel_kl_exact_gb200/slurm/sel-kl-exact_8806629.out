@@ -1,0 +1,5 @@
+== job 8806629 group t1_n15 on <node> 2026-11-10T04:12:34-08:00
+<stdin>:1: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+smoke ok: CUDA-Q Version 0.16.0
+[Nov 10 08:42:18.307931 1765432 slurmstepd   0xffffe37ef120] error: *** JOB 8806629 ON <node> CANCELLED AT 2026-11-10T08:42:18 DUE TO PREEMPTION ***
+== TERM: synced

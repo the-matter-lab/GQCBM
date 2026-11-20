@@ -1,0 +1,23 @@
+== job 9015307 group t1_n20_aligned on <node> 2026-11-14T03:22:13-08:00
+== resumed from /path/to/storage/sel_kl_pilot/runs/t1_n20_aligned/job_8828096: qcbm_aligned_kl_bimodal_20q.json qcbm_aligned_kl_bimodal_20q.json.steps qcbm_aligned_kl_exp_20q.json qcbm_aligned_kl_exp_20q.json.steps qcbm_aligned_kl_gauss_20q.json qcbm_aligned_kl_gauss_20q.json.steps qcbm_aligned_kl_lognormal_20q.json qcbm_aligned_kl_lognormal_20q.json.steps 
+== cpus: nproc=144 affinity= 0-143
+<stdin>:1: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+smoke ok: CUDA-Q Version 0.16.0
+[Nov 14 11:08:32.723484 3783589 slurmstepd   0xffffe37ef120] error: *** JOB 9015307 ON <node> CANCELLED AT 2026-11-14T11:08:32 DUE TO PREEMPTION ***
+== TERM: synced
+== job 9015307 group t1_n20_aligned on <node> 2026-11-14T13:12:20-08:00
+== resumed from /path/to/storage/sel_kl_pilot/runs/t1_n20_aligned/job_9015307: qcbm_aligned_kl_bimodal_20q.json qcbm_aligned_kl_bimodal_20q.json.steps qcbm_aligned_kl_exp_20q.json qcbm_aligned_kl_exp_20q.json.steps qcbm_aligned_kl_gauss_20q.json qcbm_aligned_kl_gauss_20q.json.steps qcbm_aligned_kl_lognormal_20q.json qcbm_aligned_kl_lognormal_20q.json.steps 
+== resumed from /path/to/storage/sel_kl_pilot/runs/t1_n20_aligned/job_8828096: qcbm_aligned_kl_bimodal_20q.json qcbm_aligned_kl_bimodal_20q.json.steps qcbm_aligned_kl_exp_20q.json qcbm_aligned_kl_exp_20q.json.steps qcbm_aligned_kl_gauss_20q.json qcbm_aligned_kl_gauss_20q.json.steps qcbm_aligned_kl_lognormal_20q.json qcbm_aligned_kl_lognormal_20q.json.steps 
+== cpus: nproc=144 affinity= 0-143
+<stdin>:1: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+smoke ok: CUDA-Q Version 0.16.0
+[Nov 14 18:13:06.835555 3988895 slurmstepd   0xffffe2fdf120] error: *** JOB 9015307 ON <node> CANCELLED AT 2026-11-14T18:13:06 DUE TO PREEMPTION ***
+== TERM: synced
+== job 9015307 group t1_n20_aligned on <node> 2026-11-14T21:40:36-08:00
+== resumed from /path/to/storage/sel_kl_pilot/runs/t1_n20_aligned/job_9015307: qcbm_aligned_kl_bimodal_20q.json qcbm_aligned_kl_bimodal_20q.json.steps qcbm_aligned_kl_exp_20q.json qcbm_aligned_kl_exp_20q.json.steps qcbm_aligned_kl_gauss_20q.json qcbm_aligned_kl_gauss_20q.json.steps qcbm_aligned_kl_lognormal_20q.json qcbm_aligned_kl_lognormal_20q.json.steps 
+== resumed from /path/to/storage/sel_kl_pilot/runs/t1_n20_aligned/job_8828096: qcbm_aligned_kl_bimodal_20q.json qcbm_aligned_kl_bimodal_20q.json.steps qcbm_aligned_kl_exp_20q.json qcbm_aligned_kl_exp_20q.json.steps qcbm_aligned_kl_gauss_20q.json qcbm_aligned_kl_gauss_20q.json.steps qcbm_aligned_kl_lognormal_20q.json qcbm_aligned_kl_lognormal_20q.json.steps 
+== cpus: nproc=144 affinity= 0-143
+<stdin>:1: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+smoke ok: CUDA-Q Version 0.16.0
+[Nov 15 02:17:19.774050 2410292 slurmstepd   0xffffe37ef120] error: *** JOB 9015307 ON <node> CANCELLED AT 2026-11-15T02:17:19 DUE TO PREEMPTION ***
+== TERM: synced

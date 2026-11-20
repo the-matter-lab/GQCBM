@@ -1,0 +1,44 @@
+== job 8828096 group t1_n20_aligned on <node> 2026-11-10T09:58:15-08:00
+== cpus: nproc=144 affinity= 0-143
+<stdin>:1: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+smoke ok: CUDA-Q Version 0.16.0
+[Nov 10 14:23:33.995163 1809506 slurmstepd   0xffffdf7ef120] error: *** JOB 8828096 ON <node> CANCELLED AT 2026-11-10T14:23:33 DUE TO PREEMPTION ***
+== TERM: synced
+== job 8828096 group t1_n20_aligned on <node> 2026-11-10T14:56:54-08:00
+== resumed from /path/to/storage/sel_kl_pilot/runs/t1_n20_aligned/job_8828096: qcbm_aligned_kl_bimodal_20q.json qcbm_aligned_kl_exp_20q.json qcbm_aligned_kl_gauss_20q.json qcbm_aligned_kl_lognormal_20q.json 
+== cpus: nproc=144 affinity= 0-143
+<stdin>:1: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+smoke ok: CUDA-Q Version 0.16.0
+[Nov 10 21:38:25.689096 212196 slurmstepd   0xffffe37ef120] error: *** JOB 8828096 ON <node> CANCELLED AT 2026-11-10T21:38:25 DUE TO PREEMPTION ***
+== TERM: synced
+== job 8828096 group t1_n20_aligned on <node> 2026-11-10T22:04:41-08:00
+== resumed from /path/to/storage/sel_kl_pilot/runs/t1_n20_aligned/job_8828096: qcbm_aligned_kl_bimodal_20q.json qcbm_aligned_kl_exp_20q.json qcbm_aligned_kl_gauss_20q.json qcbm_aligned_kl_lognormal_20q.json 
+== cpus: nproc=144 affinity= 0-143
+<stdin>:1: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+smoke ok: CUDA-Q Version 0.16.0
+== job 8828096 group t1_n20_aligned on <node> 2026-11-11T07:37:18-08:00
+== resumed from /path/to/storage/sel_kl_pilot/runs/t1_n20_aligned/job_8828096: qcbm_aligned_kl_bimodal_20q.json qcbm_aligned_kl_exp_20q.json qcbm_aligned_kl_gauss_20q.json qcbm_aligned_kl_lognormal_20q.json 
+== cpus: nproc=144 affinity= 0-143
+<stdin>:1: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+smoke ok: CUDA-Q Version 0.16.0
+== job 8828096 group t1_n20_aligned on <node> 2026-11-11T09:00:08-08:00
+== resumed from /path/to/storage/sel_kl_pilot/runs/t1_n20_aligned/job_8828096: qcbm_aligned_kl_bimodal_20q.json qcbm_aligned_kl_exp_20q.json qcbm_aligned_kl_gauss_20q.json qcbm_aligned_kl_lognormal_20q.json 
+== cpus: nproc=144 affinity= 0-143
+<stdin>:1: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+smoke ok: CUDA-Q Version 0.16.0
+[Nov 11 14:18:53.731205 219809 slurmstepd   0xffffe37ef120] error: *** JOB 8828096 ON <node> CANCELLED AT 2026-11-11T14:18:53 DUE TO PREEMPTION ***
+== TERM: synced
+== job 8828096 group t1_n20_aligned on <node> 2026-11-11T14:21:06-08:00
+== resumed from /path/to/storage/sel_kl_pilot/runs/t1_n20_aligned/job_8828096: qcbm_aligned_kl_bimodal_20q.json qcbm_aligned_kl_exp_20q.json qcbm_aligned_kl_gauss_20q.json qcbm_aligned_kl_lognormal_20q.json 
+== cpus: nproc=144 affinity= 0-143
+<stdin>:1: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+smoke ok: CUDA-Q Version 0.16.0
+[Nov 11 21:26:15.709487 4103777 slurmstepd   0xffffeb7ef120] error: *** JOB 8828096 ON <node> CANCELLED AT 2026-11-11T21:26:15 DUE TO PREEMPTION ***
+== TERM: synced
+== job 8828096 group t1_n20_aligned on <node> 2026-11-11T21:32:13-08:00
+== resumed from /path/to/storage/sel_kl_pilot/runs/t1_n20_aligned/job_8828096: qcbm_aligned_kl_bimodal_20q.json qcbm_aligned_kl_exp_20q.json qcbm_aligned_kl_gauss_20q.json qcbm_aligned_kl_lognormal_20q.json 
+== cpus: nproc=144 affinity= 0-143
+<stdin>:1: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+smoke ok: CUDA-Q Version 0.16.0
+[Nov 12 02:54:50.86422  3427479 slurmstepd   0xffffe2fdf120] error: *** JOB 8828096 ON <node> CANCELLED AT 2026-11-12T02:54:50 DUE TO PREEMPTION ***
+== TERM: synced

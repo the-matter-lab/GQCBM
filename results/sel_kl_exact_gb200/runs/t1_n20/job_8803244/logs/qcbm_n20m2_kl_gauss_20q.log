@@ -1,0 +1,53 @@
+/path/to/scratch/selkl_8803244/code/qcbm_pennylane.py:24: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+  import cudaq
+
+==============================================================
+  gauss_20q  (gaussian, 20q, 10L, SEL, MMD bw=[0.25, 60.0], 1×20 @lr0.1)
+  start 1/1 (random) ...
+    step    10/20  KL=1.148374e+00  KL=1.1484  MMD=nan  best=1.148374e+00  44.669 s/step
+    step    20/20  KL=6.338008e-01  KL=0.6338  MMD=nan  best=6.338008e-01  44.293 s/step
+  [ckpt] cumulative starts=1 best_mmd=6.338008e-01
+  [gauss_20q] n_q=20 L=10 params=600 → MMD=6.338008e-01  KL=0.63380  t=886.0s
+
+
+Results → /path/to/scratch/selkl_8803244/results/qcbm_n20m2_kl_gauss_20q.json
+
+Experiment             nq  L params     Best MMD   Best KL
+--------------------------------------------------------------
+  gauss_20q            20 10    600   6.3380e-01   0.63380
+/path/to/scratch/selkl_8803244/code/qcbm_pennylane.py:24: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+  import cudaq
+
+==============================================================
+  gauss_20q  (gaussian, 20q, 10L, SEL, MMD bw=[0.25, 60.0], 1×20 @lr0.1)
+  [resume] carried best_mmd=6.338008e-01 from 1 prior starts
+  start 1/1 (WARM from carried) ...
+    step    10/20  KL=6.142021e-01  KL=0.6142  MMD=nan  best=6.100957e-01  42.854 s/step
+    step    20/20  KL=5.860977e-01  KL=0.5861  MMD=nan  best=5.860977e-01  43.498 s/step
+  [ckpt] cumulative starts=2 best_mmd=5.860977e-01
+  [gauss_20q] n_q=20 L=10 params=600 → MMD=5.860977e-01  KL=0.58610  t=870.1s
+
+
+Results → /path/to/scratch/selkl_8803244/results/qcbm_n20m2_kl_gauss_20q.json
+
+Experiment             nq  L params     Best MMD   Best KL
+--------------------------------------------------------------
+  gauss_20q            20 10    600   5.8610e-01   0.58610
+/path/to/scratch/selkl_8803244/code/qcbm_pennylane.py:24: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+  import cudaq
+
+==============================================================
+  gauss_20q  (gaussian, 20q, 10L, SEL, MMD bw=[0.25, 60.0], 1×20 @lr0.1)
+  [resume] carried best_mmd=5.860977e-01 from 2 prior starts
+  start 1/1 (WARM from carried) ...
+    step    10/20  KL=6.035708e-01  KL=0.6036  MMD=nan  best=5.860977e-01  44.137 s/step
+    [early stop] no improvement for 12 steps at step 13
+  [ckpt] cumulative starts=3 best_mmd=5.860977e-01
+  [gauss_20q] n_q=20 L=10 params=600 → MMD=5.860977e-01  KL=0.58610  t=569.3s
+
+
+Results → /path/to/scratch/selkl_8803244/results/qcbm_n20m2_kl_gauss_20q.json
+
+Experiment             nq  L params     Best MMD   Best KL
+--------------------------------------------------------------
+  gauss_20q            20 10    600   5.8610e-01   0.58610

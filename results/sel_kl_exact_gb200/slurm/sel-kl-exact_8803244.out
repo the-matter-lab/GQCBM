@@ -1,0 +1,24 @@
+== job 8803244 group t1_n20 on <node> 2026-11-09T21:30:17-08:00
+<stdin>:1: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+smoke ok: CUDA-Q Version 0.16.0
+== bimodal_20q -> qcbm_n20m2_kl_bimodal_20q.json exit 0 best_kl=0.6143877392912546 2026-11-09T21:45:12-08:00
+== gauss_20q -> qcbm_n20m2_kl_gauss_20q.json exit 0 best_kl=0.6338007620784909 2026-11-09T21:45:18-08:00
+== exp_20q -> qcbm_n20m2_kl_exp_20q.json exit 0 best_kl=1.0197259449877045 2026-11-09T21:45:24-08:00
+== lognormal_20q -> qcbm_n20m2_kl_lognormal_20q.json exit 0 best_kl=0.6693000463161646 2026-11-09T21:45:24-08:00
+== bimodal_20q -> qcbm_n20m2_kl_bimodal_20q.json exit 0 best_kl=0.5752295800272614 2026-11-09T21:59:28-08:00
+== gauss_20q -> qcbm_n20m2_kl_gauss_20q.json exit 0 best_kl=0.5860977280206692 2026-11-09T21:59:52-08:00
+== lognormal_20q -> qcbm_n20m2_kl_lognormal_20q.json exit 0 best_kl=0.6254714645969317 2026-11-09T22:00:58-08:00
+== exp_20q -> qcbm_n20m2_kl_exp_20q.json exit 0 best_kl=0.9592413865725437 2026-11-09T22:01:01-08:00
+== bimodal_20q -> qcbm_n20m2_kl_bimodal_20q.json exit 0 best_kl=0.5752295800272614 2026-11-09T22:08:57-08:00
+== bimodal_20q: plateau after cycle 3
+== gauss_20q -> qcbm_n20m2_kl_gauss_20q.json exit 0 best_kl=0.5860977280206692 2026-11-09T22:09:25-08:00
+== gauss_20q: plateau after cycle 3
+== exp_20q -> qcbm_n20m2_kl_exp_20q.json exit 0 best_kl=0.9592413865725437 2026-11-09T22:09:57-08:00
+== exp_20q: plateau after cycle 3
+== lognormal_20q -> qcbm_n20m2_kl_lognormal_20q.json exit 0 best_kl=0.6215385312904902 2026-11-09T22:11:49-08:00
+== lognormal_20q: plateau after cycle 3
+qcbm_n20m2_kl_bimodal_20q.json           kl_grad=exact best_kl=0.57523 partial=False starts_done=3 elapsed=565s
+qcbm_n20m2_kl_exp_20q.json               kl_grad=exact best_kl=0.95924 partial=False starts_done=3 elapsed=532s
+qcbm_n20m2_kl_gauss_20q.json             kl_grad=exact best_kl=0.58610 partial=False starts_done=3 elapsed=569s
+qcbm_n20m2_kl_lognormal_20q.json         kl_grad=exact best_kl=0.62154 partial=False starts_done=3 elapsed=647s
+== done 2026-11-09T22:11:50-08:00; results in /path/to/storage/sel_kl_pilot/runs/t1_n20/job_8803244

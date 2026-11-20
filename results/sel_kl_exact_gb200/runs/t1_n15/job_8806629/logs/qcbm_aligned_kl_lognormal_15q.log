@@ -1,0 +1,77 @@
+/path/to/scratch/selkl_8806629/code/qcbm_pennylane.py:24: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+  import cudaq
+
+==============================================================
+  lognormal_15q  (lognormal, 15q, 8L, SEL, MMD bw=[0.25, 0.5, 1.0], 1×4000 @lr0.005)
+  start 1/1 (random) ...
+    step    10/4000  KL=7.898590e-01  KL=0.7899  MMD=1.541e-04  best=7.898590e-01  22.676 s/step
+    step    20/4000  KL=7.663998e-01  KL=0.7664  MMD=1.506e-04  best=7.663998e-01  22.549 s/step
+    step    30/4000  KL=7.509885e-01  KL=0.7510  MMD=1.485e-04  best=7.509885e-01  22.486 s/step
+    step    40/4000  KL=7.386533e-01  KL=0.7387  MMD=1.467e-04  best=7.386533e-01  22.673 s/step
+    step    50/4000  KL=7.305509e-01  KL=0.7306  MMD=1.452e-04  best=7.305509e-01  22.645 s/step
+    step    60/4000  KL=7.241190e-01  KL=0.7241  MMD=1.443e-04  best=7.241190e-01  22.634 s/step
+    step    70/4000  KL=7.188930e-01  KL=0.7189  MMD=1.436e-04  best=7.188930e-01  22.678 s/step
+    step    80/4000  KL=7.151625e-01  KL=0.7152  MMD=1.430e-04  best=7.151625e-01  22.791 s/step
+    step    90/4000  KL=7.115154e-01  KL=0.7115  MMD=1.424e-04  best=7.115154e-01  22.798 s/step
+    step   100/4000  KL=7.083462e-01  KL=0.7083  MMD=1.417e-04  best=7.083462e-01  22.794 s/step
+    step   110/4000  KL=7.055425e-01  KL=0.7055  MMD=1.409e-04  best=7.055425e-01  22.781 s/step
+    step   120/4000  KL=7.031106e-01  KL=0.7031  MMD=1.403e-04  best=7.031106e-01  22.767 s/step
+    step   130/4000  KL=7.010807e-01  KL=0.7011  MMD=1.399e-04  best=7.010807e-01  22.774 s/step
+    step   140/4000  KL=6.987560e-01  KL=0.6988  MMD=1.392e-04  best=6.987560e-01  22.776 s/step
+    step   150/4000  KL=6.963218e-01  KL=0.6963  MMD=1.387e-04  best=6.963218e-01  22.778 s/step
+    step   160/4000  KL=6.936868e-01  KL=0.6937  MMD=1.381e-04  best=6.936868e-01  22.757 s/step
+    step   170/4000  KL=6.912052e-01  KL=0.6912  MMD=1.377e-04  best=6.912052e-01  22.752 s/step
+    step   180/4000  KL=6.895758e-01  KL=0.6896  MMD=1.374e-04  best=6.895758e-01  22.792 s/step
+    step   190/4000  KL=6.879558e-01  KL=0.6880  MMD=1.370e-04  best=6.879558e-01  22.796 s/step
+    step   200/4000  KL=6.856662e-01  KL=0.6857  MMD=1.366e-04  best=6.856662e-01  22.816 s/step
+    step   210/4000  KL=6.842656e-01  KL=0.6843  MMD=1.363e-04  best=6.842656e-01  22.821 s/step
+    step   220/4000  KL=6.830545e-01  KL=0.6831  MMD=1.361e-04  best=6.830545e-01  22.809 s/step
+    step   230/4000  KL=6.821194e-01  KL=0.6821  MMD=1.360e-04  best=6.821194e-01  22.799 s/step
+    step   240/4000  KL=6.812228e-01  KL=0.6812  MMD=1.357e-04  best=6.812228e-01  22.793 s/step
+    step   250/4000  KL=6.804187e-01  KL=0.6804  MMD=1.355e-04  best=6.804187e-01  22.793 s/step
+    step   260/4000  KL=6.794679e-01  KL=0.6795  MMD=1.354e-04  best=6.794679e-01  22.783 s/step
+    step   270/4000  KL=6.780401e-01  KL=0.6780  MMD=1.351e-04  best=6.780401e-01  22.776 s/step
+    step   280/4000  KL=6.767673e-01  KL=0.6768  MMD=1.347e-04  best=6.767673e-01  22.766 s/step
+    step   290/4000  KL=6.757916e-01  KL=0.6758  MMD=1.346e-04  best=6.757916e-01  22.746 s/step
+    step   300/4000  KL=6.747632e-01  KL=0.6748  MMD=1.343e-04  best=6.747632e-01  22.746 s/step
+    step   310/4000  KL=6.737207e-01  KL=0.6737  MMD=1.341e-04  best=6.737207e-01  22.734 s/step
+    step   320/4000  KL=6.729984e-01  KL=0.6730  MMD=1.340e-04  best=6.729984e-01  22.724 s/step
+    step   330/4000  KL=6.722968e-01  KL=0.6723  MMD=1.339e-04  best=6.722968e-01  22.719 s/step
+    step   340/4000  KL=6.715329e-01  KL=0.6715  MMD=1.337e-04  best=6.715329e-01  22.712 s/step
+    step   350/4000  KL=6.705973e-01  KL=0.6706  MMD=1.335e-04  best=6.705973e-01  22.706 s/step
+    step   360/4000  KL=6.695195e-01  KL=0.6695  MMD=1.333e-04  best=6.695195e-01  22.697 s/step
+    step   370/4000  KL=6.688082e-01  KL=0.6688  MMD=1.332e-04  best=6.688082e-01  22.695 s/step
+    step   380/4000  KL=6.682116e-01  KL=0.6682  MMD=1.331e-04  best=6.682116e-01  22.688 s/step
+    step   390/4000  KL=6.677468e-01  KL=0.6677  MMD=1.330e-04  best=6.677468e-01  22.693 s/step
+    step   400/4000  KL=6.671223e-01  KL=0.6671  MMD=1.329e-04  best=6.671223e-01  22.697 s/step
+    step   410/4000  KL=6.665772e-01  KL=0.6666  MMD=1.328e-04  best=6.665772e-01  22.697 s/step
+    step   420/4000  KL=6.661784e-01  KL=0.6662  MMD=1.327e-04  best=6.661784e-01  22.694 s/step
+    step   430/4000  KL=6.657953e-01  KL=0.6658  MMD=1.326e-04  best=6.657953e-01  22.683 s/step
+    step   440/4000  KL=6.654279e-01  KL=0.6654  MMD=1.326e-04  best=6.654279e-01  22.675 s/step
+    step   450/4000  KL=6.650580e-01  KL=0.6651  MMD=1.325e-04  best=6.650580e-01  22.667 s/step
+    step   460/4000  KL=6.645655e-01  KL=0.6646  MMD=1.324e-04  best=6.645655e-01  22.671 s/step
+    step   470/4000  KL=6.640486e-01  KL=0.6640  MMD=1.323e-04  best=6.640486e-01  22.658 s/step
+    step   480/4000  KL=6.636021e-01  KL=0.6636  MMD=1.322e-04  best=6.636021e-01  22.654 s/step
+    step   490/4000  KL=6.632030e-01  KL=0.6632  MMD=1.323e-04  best=6.632030e-01  22.648 s/step
+    step   500/4000  KL=6.628147e-01  KL=0.6628  MMD=1.323e-04  best=6.628147e-01  22.649 s/step
+    step   510/4000  KL=6.623768e-01  KL=0.6624  MMD=1.323e-04  best=6.623768e-01  22.640 s/step
+    step   520/4000  KL=6.619493e-01  KL=0.6619  MMD=1.322e-04  best=6.619493e-01  22.629 s/step
+    step   530/4000  KL=6.616520e-01  KL=0.6617  MMD=1.321e-04  best=6.616520e-01  22.629 s/step
+    step   540/4000  KL=6.613786e-01  KL=0.6614  MMD=1.320e-04  best=6.613786e-01  22.626 s/step
+    step   550/4000  KL=6.611288e-01  KL=0.6611  MMD=1.319e-04  best=6.611288e-01  22.623 s/step
+    step   560/4000  KL=6.609037e-01  KL=0.6609  MMD=1.319e-04  best=6.609037e-01  22.612 s/step
+    step   570/4000  KL=6.607119e-01  KL=0.6607  MMD=1.318e-04  best=6.607119e-01  22.604 s/step
+    step   580/4000  KL=6.605336e-01  KL=0.6605  MMD=1.318e-04  best=6.605336e-01  22.599 s/step
+    step   590/4000  KL=6.604206e-01  KL=0.6604  MMD=1.318e-04  best=6.604206e-01  22.593 s/step
+    step   600/4000  KL=6.603357e-01  KL=0.6603  MMD=1.318e-04  best=6.603357e-01  22.595 s/step
+    step   610/4000  KL=6.602646e-01  KL=0.6603  MMD=1.317e-04  best=6.602646e-01  22.596 s/step
+    step   620/4000  KL=6.601575e-01  KL=0.6602  MMD=1.317e-04  best=6.601575e-01  22.601 s/step
+    step   630/4000  KL=6.600541e-01  KL=0.6601  MMD=1.317e-04  best=6.600541e-01  22.608 s/step
+    step   640/4000  KL=6.598856e-01  KL=0.6599  MMD=1.317e-04  best=6.598856e-01  22.601 s/step
+    step   650/4000  KL=6.596755e-01  KL=0.6597  MMD=1.317e-04  best=6.596755e-01  22.607 s/step
+    step   660/4000  KL=6.595216e-01  KL=0.6595  MMD=1.317e-04  best=6.595216e-01  22.607 s/step
+    step   670/4000  KL=6.593615e-01  KL=0.6594  MMD=1.317e-04  best=6.593615e-01  22.603 s/step
+    step   680/4000  KL=6.591818e-01  KL=0.6592  MMD=1.317e-04  best=6.591818e-01  22.601 s/step
+    step   690/4000  KL=6.590012e-01  KL=0.6590  MMD=1.317e-04  best=6.590012e-01  22.599 s/step
+    step   700/4000  KL=6.588226e-01  KL=0.6588  MMD=1.317e-04  best=6.588226e-01  22.595 s/step
+    step   710/4000  KL=6.586707e-01  KL=0.6587  MMD=1.317e-04  best=6.586707e-01  22.592 s/step

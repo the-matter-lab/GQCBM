@@ -1,0 +1,11 @@
+n_qubits,n_gates,best_kl,protocol
+10,20,0.029615,single_shot_3000iter
+10,30,0.064391,single_shot_3000iter
+10,50,0.019300,single_shot_3000iter
+15,20,0.036933,single_shot_3000iter
+15,30,0.014340,single_shot_3000iter
+15,50,0.082039,single_shot_3000iter
+20,20,0.243935,single_shot_3000iter
+20,30,0.066561,single_shot_3000iter
+20,50,0.175931,single_shot_3000iter
+20,50,0.009301,chain_plateau_multicycle

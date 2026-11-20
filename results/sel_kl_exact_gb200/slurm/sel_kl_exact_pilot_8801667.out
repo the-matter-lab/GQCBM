@@ -1,0 +1,22 @@
+== job 8801667 on <node>  2026-11-09T20:42:58-08:00  arch aarch64
+index, name, memory.total [MiB]
+0, NVIDIA GB200, 189471 MiB
+1, NVIDIA GB200, 189471 MiB
+2, NVIDIA GB200, 189471 MiB
+3, NVIDIA GB200, 189471 MiB
+ERROR: Could not find a version that satisfies the requirement cuda-quantum==0.8.0 (from versions: 0.9.0, 0.9.1, 0.10.0, 0.15.1)
+ERROR: No matching distribution found for cuda-quantum==0.8.0
+ENV: pinned stack failed or skipped; trying current releases
+<stdin>:1: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+cudaq CUDA-Q Version 0.16.0 (https://github.com/NVIDIA/cuda-quantum 62fce8b862302158e0119c65e3ce57538f3af048) | cupy 13.6.0 | NVIDIA GB200 | sum p = 0.9999999999999998
+ENV: current releases (NOT the paper's pinned versions; record this)
+/path/to/scratch/sel_kl_pilot_8801667/code/qcbm_kl_grad_exact.py:33: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+  import cudaq
+n=4 L=2 params=24  |grad_fd|=3.4353e+00  max|exact-fd|=6.044e-10  max|legacy-fd|=1.345e+00  cos(legacy,fd)=0.6778
+n=6 L=2 params=36  |grad_fd|=1.2526e+00  max|exact-fd|=7.199e-11  max|legacy-fd|=5.313e-01  cos(legacy,fd)=0.5098
+DONE
+== run budget 3059s (remaining walltime minus 300s for copy-back)
+== bimodal_20q exact exit 0  2026-11-09T20:47:46-08:00
+== bimodal_20q legacy exit 0  2026-11-09T20:48:17-08:00
+== exp_10q exact exit 0  2026-11-09T20:58:07-08:00
+== exp_10q legacy exit 0  2026-11-09T20:58:08-08:00

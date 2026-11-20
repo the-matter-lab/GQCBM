@@ -1,0 +1,12 @@
+== job 8803242 group t1_n10 on <node> 2026-11-09T21:30:17-08:00
+<stdin>:1: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+smoke ok: CUDA-Q Version 0.16.0
+== lognormal_10q -> qcbm_aligned_kl_lognormal_10q.json exit 0 best_kl=0.18853428931030036 2026-11-10T00:48:01-08:00
+== bimodal_10q -> qcbm_aligned_kl_bimodal_10q.json exit 0 best_kl=0.17979519396673277 2026-11-10T00:48:10-08:00
+== exp_10q -> qcbm_aligned_kl_exp_10q.json exit 0 best_kl=0.024392697018975985 2026-11-10T00:48:14-08:00
+== gauss_10q -> qcbm_aligned_kl_gauss_10q.json exit 0 best_kl=0.12774770787160927 2026-11-10T00:48:34-08:00
+qcbm_aligned_kl_bimodal_10q.json         kl_grad=exact best_kl=0.17980 partial=False starts_done=1 elapsed=11859s
+qcbm_aligned_kl_exp_10q.json             kl_grad=exact best_kl=0.02439 partial=False starts_done=1 elapsed=11863s
+qcbm_aligned_kl_gauss_10q.json           kl_grad=exact best_kl=0.12775 partial=False starts_done=1 elapsed=11883s
+qcbm_aligned_kl_lognormal_10q.json       kl_grad=exact best_kl=0.18853 partial=False starts_done=1 elapsed=11849s
+== done 2026-11-10T00:48:35-08:00; results in /path/to/storage/sel_kl_pilot/runs/t1_n10/job_8803242

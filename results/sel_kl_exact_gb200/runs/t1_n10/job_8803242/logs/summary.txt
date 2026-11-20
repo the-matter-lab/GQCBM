@@ -1,0 +1,4 @@
+qcbm_aligned_kl_bimodal_10q.json         kl_grad=exact best_kl=0.17980 partial=False starts_done=1 elapsed=11859s
+qcbm_aligned_kl_exp_10q.json             kl_grad=exact best_kl=0.02439 partial=False starts_done=1 elapsed=11863s
+qcbm_aligned_kl_gauss_10q.json           kl_grad=exact best_kl=0.12775 partial=False starts_done=1 elapsed=11883s
+qcbm_aligned_kl_lognormal_10q.json       kl_grad=exact best_kl=0.18853 partial=False starts_done=1 elapsed=11849s

@@ -1,0 +1,11 @@
+# Pinned to the versions used for every result in the paper
+# (an HPC cluster, Python 3.9.21, NVIDIA H200, CUDA 12).
+# cuda-quantum provides the `cudaq` module; cupy-cuda12x must match your CUDA major version.
+torch==2.8.0
+cuda-quantum==0.8.0
+cupy-cuda12x==13.6.0
+numpy==1.26.4
+scipy==1.13.1
+matplotlib==3.9.4
+# Optional: PDF rendering for comparing regenerated figures (not needed by training/eval)
+pymupdf==1.26.5

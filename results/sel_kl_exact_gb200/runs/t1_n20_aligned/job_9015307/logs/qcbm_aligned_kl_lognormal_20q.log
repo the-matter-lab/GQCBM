@@ -1,0 +1,519 @@
+== attempt 2026-11-10T09:58:24-08:00 steps_already_done=0
+/path/to/scratch/selkl_8828096/code/qcbm_pennylane.py:24: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+  import cudaq
+
+==============================================================
+  lognormal_20q  (lognormal, 20q, 10L, SEL, MMD bw=[0.25, 0.5, 1.0], 1×4000 @lr0.005)
+  start 1/1 (random) ...
+    step    10/4000  KL=8.208522e-01  KL=0.8209  MMD=nan  best=8.208522e-01  43.637 s/step
+    step    20/4000  KL=8.151010e-01  KL=0.8151  MMD=nan  best=8.151010e-01  43.714 s/step
+    step    30/4000  KL=8.116200e-01  KL=0.8116  MMD=nan  best=8.116200e-01  43.623 s/step
+    step    40/4000  KL=8.086302e-01  KL=0.8086  MMD=nan  best=8.086302e-01  43.856 s/step
+    step    50/4000  KL=8.065639e-01  KL=0.8066  MMD=nan  best=8.065639e-01  44.111 s/step
+    step    60/4000  KL=8.048708e-01  KL=0.8049  MMD=nan  best=8.048708e-01  44.322 s/step
+    step    70/4000  KL=8.036690e-01  KL=0.8037  MMD=nan  best=8.036690e-01  44.472 s/step
+    step    80/4000  KL=8.026189e-01  KL=0.8026  MMD=nan  best=8.026189e-01  44.508 s/step
+    step    90/4000  KL=8.015955e-01  KL=0.8016  MMD=nan  best=8.015955e-01  44.493 s/step
+    step   100/4000  KL=8.007005e-01  KL=0.8007  MMD=nan  best=8.007005e-01  44.497 s/step
+    step   110/4000  KL=8.000483e-01  KL=0.8000  MMD=nan  best=8.000483e-01  44.561 s/step
+    step   120/4000  KL=7.996247e-01  KL=0.7996  MMD=nan  best=7.996247e-01  44.616 s/step
+    step   130/4000  KL=7.992719e-01  KL=0.7993  MMD=nan  best=7.992719e-01  44.696 s/step
+    step   140/4000  KL=7.989348e-01  KL=0.7989  MMD=nan  best=7.989348e-01  44.739 s/step
+    step   150/4000  KL=7.986151e-01  KL=0.7986  MMD=nan  best=7.986151e-01  44.765 s/step
+    step   160/4000  KL=7.983541e-01  KL=0.7984  MMD=nan  best=7.983541e-01  44.857 s/step
+    step   170/4000  KL=7.981574e-01  KL=0.7982  MMD=nan  best=7.981574e-01  44.904 s/step
+    step   180/4000  KL=7.979221e-01  KL=0.7979  MMD=nan  best=7.979221e-01  44.980 s/step
+    step   190/4000  KL=7.975778e-01  KL=0.7976  MMD=nan  best=7.975778e-01  45.061 s/step
+    step   200/4000  KL=7.972817e-01  KL=0.7973  MMD=nan  best=7.972817e-01  45.079 s/step
+    step   210/4000  KL=7.970275e-01  KL=0.7970  MMD=nan  best=7.970275e-01  45.066 s/step
+    step   220/4000  KL=7.967788e-01  KL=0.7968  MMD=nan  best=7.967788e-01  45.070 s/step
+    step   230/4000  KL=7.965869e-01  KL=0.7966  MMD=nan  best=7.965869e-01  45.059 s/step
+    step   240/4000  KL=7.964228e-01  KL=0.7964  MMD=nan  best=7.964228e-01  45.068 s/step
+    step   250/4000  KL=7.962399e-01  KL=0.7962  MMD=nan  best=7.962399e-01  45.065 s/step
+    step   260/4000  KL=7.960983e-01  KL=0.7961  MMD=nan  best=7.960983e-01  45.070 s/step
+    step   270/4000  KL=7.959997e-01  KL=0.7960  MMD=nan  best=7.959997e-01  45.054 s/step
+    step   280/4000  KL=7.958704e-01  KL=0.7959  MMD=nan  best=7.958704e-01  45.075 s/step
+    step   290/4000  KL=7.957355e-01  KL=0.7957  MMD=nan  best=7.957355e-01  45.098 s/step
+    step   300/4000  KL=7.956228e-01  KL=0.7956  MMD=nan  best=7.956228e-01  45.106 s/step
+    step   310/4000  KL=7.954868e-01  KL=0.7955  MMD=nan  best=7.954868e-01  45.123 s/step
+    step   320/4000  KL=7.953331e-01  KL=0.7953  MMD=nan  best=7.953331e-01  45.141 s/step
+    step   330/4000  KL=7.951918e-01  KL=0.7952  MMD=nan  best=7.951918e-01  45.163 s/step
+    step   340/4000  KL=7.950059e-01  KL=0.7950  MMD=nan  best=7.950059e-01  45.193 s/step
+    step   350/4000  KL=7.948409e-01  KL=0.7948  MMD=nan  best=7.948409e-01  45.203 s/step
+== attempt 2026-11-10T14:57:04-08:00 steps_already_done=350
+/path/to/scratch/selkl_8828096/code/qcbm_pennylane.py:24: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+  import cudaq
+
+==============================================================
+  lognormal_20q  (lognormal, 20q, 10L, SEL, MMD bw=[0.25, 0.5, 1.0], 1×3650 @lr0.005)
+  [resume] carried best_mmd=7.948409e-01 from 0 prior starts
+  start 1/1 (WARM from carried) ...
+    step    10/3650  KL=7.950693e-01  KL=0.7951  MMD=nan  best=7.948409e-01  43.199 s/step
+    step    20/3650  KL=7.945422e-01  KL=0.7945  MMD=nan  best=7.945422e-01  43.179 s/step
+    step    30/3650  KL=7.942944e-01  KL=0.7943  MMD=nan  best=7.942944e-01  43.264 s/step
+    step    40/3650  KL=7.940647e-01  KL=0.7941  MMD=nan  best=7.940647e-01  43.341 s/step
+    step    50/3650  KL=7.938740e-01  KL=0.7939  MMD=nan  best=7.938740e-01  43.624 s/step
+    step    60/3650  KL=7.936801e-01  KL=0.7937  MMD=nan  best=7.936801e-01  43.752 s/step
+    step    70/3650  KL=7.934412e-01  KL=0.7934  MMD=nan  best=7.934412e-01  43.614 s/step
+    step    80/3650  KL=7.932430e-01  KL=0.7932  MMD=nan  best=7.932430e-01  43.667 s/step
+    step    90/3650  KL=7.930734e-01  KL=0.7931  MMD=nan  best=7.930734e-01  43.740 s/step
+    step   100/3650  KL=7.929418e-01  KL=0.7929  MMD=nan  best=7.929418e-01  43.800 s/step
+    step   110/3650  KL=7.928179e-01  KL=0.7928  MMD=nan  best=7.928179e-01  43.871 s/step
+    step   120/3650  KL=7.927134e-01  KL=0.7927  MMD=nan  best=7.927134e-01  43.904 s/step
+    step   130/3650  KL=7.926387e-01  KL=0.7926  MMD=nan  best=7.926387e-01  43.975 s/step
+    step   140/3650  KL=7.925866e-01  KL=0.7926  MMD=nan  best=7.925866e-01  44.062 s/step
+    step   150/3650  KL=7.925540e-01  KL=0.7926  MMD=nan  best=7.925540e-01  44.170 s/step
+    step   160/3650  KL=7.925121e-01  KL=0.7925  MMD=nan  best=7.925121e-01  44.287 s/step
+    step   170/3650  KL=7.924684e-01  KL=0.7925  MMD=nan  best=7.924654e-01  44.350 s/step
+    step   180/3650  KL=7.924279e-01  KL=0.7924  MMD=nan  best=7.924279e-01  44.441 s/step
+    step   190/3650  KL=7.923633e-01  KL=0.7924  MMD=nan  best=7.923633e-01  44.468 s/step
+    step   200/3650  KL=7.922919e-01  KL=0.7923  MMD=nan  best=7.922919e-01  44.456 s/step
+    step   210/3650  KL=7.922162e-01  KL=0.7922  MMD=nan  best=7.922162e-01  44.464 s/step
+    step   220/3650  KL=7.921175e-01  KL=0.7921  MMD=nan  best=7.921175e-01  44.476 s/step
+    step   230/3650  KL=7.920087e-01  KL=0.7920  MMD=nan  best=7.920087e-01  44.477 s/step
+    step   240/3650  KL=7.918657e-01  KL=0.7919  MMD=nan  best=7.918657e-01  44.472 s/step
+    step   250/3650  KL=7.917688e-01  KL=0.7918  MMD=nan  best=7.917688e-01  44.484 s/step
+    step   260/3650  KL=7.916546e-01  KL=0.7917  MMD=nan  best=7.916546e-01  44.502 s/step
+    step   270/3650  KL=7.915408e-01  KL=0.7915  MMD=nan  best=7.915408e-01  44.509 s/step
+    step   280/3650  KL=7.913893e-01  KL=0.7914  MMD=nan  best=7.913893e-01  44.521 s/step
+    step   290/3650  KL=7.912115e-01  KL=0.7912  MMD=nan  best=7.912115e-01  44.534 s/step
+    step   300/3650  KL=7.909689e-01  KL=0.7910  MMD=nan  best=7.909689e-01  44.564 s/step
+    step   310/3650  KL=7.908456e-01  KL=0.7908  MMD=nan  best=7.908456e-01  44.564 s/step
+    step   320/3650  KL=7.907191e-01  KL=0.7907  MMD=nan  best=7.907191e-01  44.597 s/step
+    step   330/3650  KL=7.905766e-01  KL=0.7906  MMD=nan  best=7.905766e-01  44.645 s/step
+    step   340/3650  KL=7.904328e-01  KL=0.7904  MMD=nan  best=7.904328e-01  44.660 s/step
+    step   350/3650  KL=7.903312e-01  KL=0.7903  MMD=nan  best=7.903312e-01  44.670 s/step
+    step   360/3650  KL=7.902630e-01  KL=0.7903  MMD=nan  best=7.902630e-01  44.658 s/step
+    step   370/3650  KL=7.901930e-01  KL=0.7902  MMD=nan  best=7.901930e-01  44.673 s/step
+    step   380/3650  KL=7.901022e-01  KL=0.7901  MMD=nan  best=7.901022e-01  44.676 s/step
+    step   390/3650  KL=7.900095e-01  KL=0.7900  MMD=nan  best=7.900095e-01  44.690 s/step
+    step   400/3650  KL=7.899127e-01  KL=0.7899  MMD=nan  best=7.899127e-01  44.700 s/step
+    step   410/3650  KL=7.898163e-01  KL=0.7898  MMD=nan  best=7.898163e-01  44.717 s/step
+    step   420/3650  KL=7.897375e-01  KL=0.7897  MMD=nan  best=7.897375e-01  44.770 s/step
+    step   430/3650  KL=7.896782e-01  KL=0.7897  MMD=nan  best=7.896782e-01  44.820 s/step
+    step   440/3650  KL=7.895961e-01  KL=0.7896  MMD=nan  best=7.895961e-01  44.864 s/step
+    step   450/3650  KL=7.895138e-01  KL=0.7895  MMD=nan  best=7.895138e-01  44.914 s/step
+    step   460/3650  KL=7.894391e-01  KL=0.7894  MMD=nan  best=7.894391e-01  44.962 s/step
+    step   470/3650  KL=7.893457e-01  KL=0.7893  MMD=nan  best=7.893457e-01  45.008 s/step
+    step   480/3650  KL=7.891283e-01  KL=0.7891  MMD=nan  best=7.891283e-01  45.039 s/step
+    step   490/3650  KL=7.888732e-01  KL=0.7889  MMD=nan  best=7.888732e-01  45.065 s/step
+    step   500/3650  KL=7.886053e-01  KL=0.7886  MMD=nan  best=7.886053e-01  45.103 s/step
+    step   510/3650  KL=7.883678e-01  KL=0.7884  MMD=nan  best=7.883678e-01  45.138 s/step
+    step   520/3650  KL=7.882312e-01  KL=0.7882  MMD=nan  best=7.882312e-01  45.169 s/step
+    step   530/3650  KL=7.881158e-01  KL=0.7881  MMD=nan  best=7.881158e-01  45.201 s/step
+== attempt 2026-11-10T22:04:51-08:00 steps_already_done=530
+/path/to/scratch/selkl_8828096/code/qcbm_pennylane.py:24: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+  import cudaq
+
+==============================================================
+  lognormal_20q  (lognormal, 20q, 10L, SEL, MMD bw=[0.25, 0.5, 1.0], 1×3470 @lr0.005)
+  [resume] carried best_mmd=7.881158e-01 from 0 prior starts
+  start 1/1 (WARM from carried) ...
+    step    10/3470  KL=7.885159e-01  KL=0.7885  MMD=nan  best=7.881158e-01  43.021 s/step
+    step    20/3470  KL=7.880790e-01  KL=0.7881  MMD=nan  best=7.880790e-01  43.470 s/step
+    step    30/3470  KL=7.879167e-01  KL=0.7879  MMD=nan  best=7.879167e-01  43.446 s/step
+    step    40/3470  KL=7.878126e-01  KL=0.7878  MMD=nan  best=7.878126e-01  43.690 s/step
+    step    50/3470  KL=7.877285e-01  KL=0.7877  MMD=nan  best=7.877285e-01  44.148 s/step
+    step    60/3470  KL=7.876499e-01  KL=0.7876  MMD=nan  best=7.876499e-01  44.440 s/step
+    step    70/3470  KL=7.875868e-01  KL=0.7876  MMD=nan  best=7.875868e-01  44.518 s/step
+    step    80/3470  KL=7.875381e-01  KL=0.7875  MMD=nan  best=7.875381e-01  44.594 s/step
+    step    90/3470  KL=7.874929e-01  KL=0.7875  MMD=nan  best=7.874929e-01  44.606 s/step
+    step   100/3470  KL=7.874316e-01  KL=0.7874  MMD=nan  best=7.874316e-01  44.668 s/step
+    step   110/3470  KL=7.873536e-01  KL=0.7874  MMD=nan  best=7.873536e-01  44.669 s/step
+    step   120/3470  KL=7.872390e-01  KL=0.7872  MMD=nan  best=7.872390e-01  44.710 s/step
+    step   130/3470  KL=7.871074e-01  KL=0.7871  MMD=nan  best=7.871074e-01  44.782 s/step
+    step   140/3470  KL=7.870026e-01  KL=0.7870  MMD=nan  best=7.870026e-01  44.878 s/step
+    step   150/3470  KL=7.868994e-01  KL=0.7869  MMD=nan  best=7.868994e-01  44.978 s/step
+    step   160/3470  KL=7.868232e-01  KL=0.7868  MMD=nan  best=7.868232e-01  45.053 s/step
+    step   170/3470  KL=7.867376e-01  KL=0.7867  MMD=nan  best=7.867376e-01  45.148 s/step
+    step   180/3470  KL=7.866644e-01  KL=0.7867  MMD=nan  best=7.866644e-01  45.241 s/step
+    step   190/3470  KL=7.865868e-01  KL=0.7866  MMD=nan  best=7.865868e-01  45.302 s/step
+    step   200/3470  KL=7.864876e-01  KL=0.7865  MMD=nan  best=7.864876e-01  45.325 s/step
+    step   210/3470  KL=7.863977e-01  KL=0.7864  MMD=nan  best=7.863977e-01  45.324 s/step
+    step   220/3470  KL=7.862942e-01  KL=0.7863  MMD=nan  best=7.862942e-01  45.286 s/step
+    step   230/3470  KL=7.861977e-01  KL=0.7862  MMD=nan  best=7.861977e-01  45.272 s/step
+    step   240/3470  KL=7.860916e-01  KL=0.7861  MMD=nan  best=7.860916e-01  45.263 s/step
+    step   250/3470  KL=7.859773e-01  KL=0.7860  MMD=nan  best=7.859773e-01  45.254 s/step
+    step   260/3470  KL=7.858552e-01  KL=0.7859  MMD=nan  best=7.858552e-01  45.217 s/step
+    step   270/3470  KL=7.857245e-01  KL=0.7857  MMD=nan  best=7.857245e-01  45.231 s/step
+    step   280/3470  KL=7.856341e-01  KL=0.7856  MMD=nan  best=7.856341e-01  45.218 s/step
+    step   290/3470  KL=7.855415e-01  KL=0.7855  MMD=nan  best=7.855415e-01  45.197 s/step
+    step   300/3470  KL=7.854669e-01  KL=0.7855  MMD=nan  best=7.854669e-01  45.200 s/step
+    step   310/3470  KL=7.853896e-01  KL=0.7854  MMD=nan  best=7.853896e-01  45.241 s/step
+    step   320/3470  KL=7.852790e-01  KL=0.7853  MMD=nan  best=7.852790e-01  45.257 s/step
+    step   330/3470  KL=7.851950e-01  KL=0.7852  MMD=nan  best=7.851950e-01  45.282 s/step
+    step   340/3470  KL=7.850424e-01  KL=0.7850  MMD=nan  best=7.850424e-01  45.297 s/step
+    step   350/3470  KL=7.848574e-01  KL=0.7849  MMD=nan  best=7.848574e-01  45.329 s/step
+    step   360/3470  KL=7.846875e-01  KL=0.7847  MMD=nan  best=7.846875e-01  45.338 s/step
+    step   370/3470  KL=7.845042e-01  KL=0.7845  MMD=nan  best=7.845042e-01  45.361 s/step
+    step   380/3470  KL=7.842872e-01  KL=0.7843  MMD=nan  best=7.842872e-01  45.370 s/step
+    step   390/3470  KL=7.840545e-01  KL=0.7841  MMD=nan  best=7.840545e-01  45.378 s/step
+    step   400/3470  KL=7.838364e-01  KL=0.7838  MMD=nan  best=7.838364e-01  45.411 s/step
+    step   410/3470  KL=7.836761e-01  KL=0.7837  MMD=nan  best=7.836761e-01  45.459 s/step
+    step   420/3470  KL=7.835848e-01  KL=0.7836  MMD=nan  best=7.835848e-01  45.510 s/step
+    step   430/3470  KL=7.835369e-01  KL=0.7835  MMD=nan  best=7.835369e-01  45.568 s/step
+    step   440/3470  KL=7.834449e-01  KL=0.7834  MMD=nan  best=7.834449e-01  45.601 s/step
+    step   450/3470  KL=7.833077e-01  KL=0.7833  MMD=nan  best=7.833077e-01  45.648 s/step
+    step   460/3470  KL=7.830607e-01  KL=0.7831  MMD=nan  best=7.830607e-01  45.695 s/step
+    step   470/3470  KL=7.828204e-01  KL=0.7828  MMD=nan  best=7.828204e-01  45.727 s/step
+    step   480/3470  KL=7.824858e-01  KL=0.7825  MMD=nan  best=7.824858e-01  45.763 s/step
+    step   490/3470  KL=7.820168e-01  KL=0.7820  MMD=nan  best=7.820168e-01  45.806 s/step
+    step   500/3470  KL=7.813719e-01  KL=0.7814  MMD=nan  best=7.813719e-01  45.844 s/step
+    step   510/3470  KL=7.790967e-01  KL=0.7791  MMD=nan  best=7.790967e-01  45.871 s/step
+    step   520/3470  KL=7.600377e-01  KL=0.7600  MMD=nan  best=7.600377e-01  45.900 s/step
+    step   530/3470  KL=6.780904e-01  KL=0.6781  MMD=nan  best=6.780904e-01  45.918 s/step
+    step   540/3470  KL=6.399592e-01  KL=0.6400  MMD=nan  best=6.399592e-01  45.938 s/step
+    step   550/3470  KL=6.230885e-01  KL=0.6231  MMD=nan  best=6.230885e-01  45.964 s/step
+    step   560/3470  KL=6.176766e-01  KL=0.6177  MMD=nan  best=6.176766e-01  45.984 s/step
+    step   570/3470  KL=6.138481e-01  KL=0.6138  MMD=nan  best=6.138481e-01  46.001 s/step
+    step   580/3470  KL=6.115700e-01  KL=0.6116  MMD=nan  best=6.115700e-01  46.026 s/step
+    step   590/3470  KL=6.101723e-01  KL=0.6102  MMD=nan  best=6.101723e-01  46.046 s/step
+    step   600/3470  KL=6.094657e-01  KL=0.6095  MMD=nan  best=6.094657e-01  46.073 s/step
+    step   610/3470  KL=6.091178e-01  KL=0.6091  MMD=nan  best=6.091178e-01  46.098 s/step
+    step   620/3470  KL=6.088063e-01  KL=0.6088  MMD=nan  best=6.088063e-01  46.123 s/step
+    step   630/3470  KL=6.085559e-01  KL=0.6086  MMD=nan  best=6.085559e-01  46.140 s/step
+    step   640/3470  KL=6.083707e-01  KL=0.6084  MMD=nan  best=6.083707e-01  46.163 s/step
+    step   650/3470  KL=6.081909e-01  KL=0.6082  MMD=nan  best=6.081909e-01  46.184 s/step
+    step   660/3470  KL=6.080543e-01  KL=0.6081  MMD=nan  best=6.080543e-01  46.199 s/step
+    step   670/3470  KL=6.079533e-01  KL=0.6080  MMD=nan  best=6.079533e-01  46.218 s/step
+    step   680/3470  KL=6.078427e-01  KL=0.6078  MMD=nan  best=6.078427e-01  46.238 s/step
+    step   690/3470  KL=6.077145e-01  KL=0.6077  MMD=nan  best=6.077145e-01  46.261 s/step
+== attempt 2026-11-11T07:37:28-08:00 steps_already_done=690
+/path/to/scratch/selkl_8828096/code/qcbm_pennylane.py:24: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+  import cudaq
+
+==============================================================
+  lognormal_20q  (lognormal, 20q, 10L, SEL, MMD bw=[0.25, 0.5, 1.0], 1×3310 @lr0.005)
+  [resume] carried best_mmd=6.077145e-01 from 0 prior starts
+  start 1/1 (WARM from carried) ...
+    step    10/3310  KL=6.080160e-01  KL=0.6080  MMD=nan  best=6.077145e-01  41.246 s/step
+    step    20/3310  KL=6.074773e-01  KL=0.6075  MMD=nan  best=6.074773e-01  41.288 s/step
+    step    30/3310  KL=6.072300e-01  KL=0.6072  MMD=nan  best=6.072300e-01  41.797 s/step
+    step    40/3310  KL=6.070538e-01  KL=0.6071  MMD=nan  best=6.070538e-01  41.890 s/step
+    step    50/3310  KL=6.069572e-01  KL=0.6070  MMD=nan  best=6.069572e-01  41.814 s/step
+    step    60/3310  KL=6.068911e-01  KL=0.6069  MMD=nan  best=6.068911e-01  41.765 s/step
+    step    70/3310  KL=6.068322e-01  KL=0.6068  MMD=nan  best=6.068322e-01  41.732 s/step
+    step    80/3310  KL=6.067772e-01  KL=0.6068  MMD=nan  best=6.067772e-01  42.112 s/step
+    step    90/3310  KL=6.067102e-01  KL=0.6067  MMD=nan  best=6.067102e-01  42.415 s/step
+    step   100/3310  KL=6.066598e-01  KL=0.6067  MMD=nan  best=6.066598e-01  42.670 s/step
+== attempt 2026-11-11T09:00:17-08:00 steps_already_done=100
+/path/to/scratch/selkl_8828096/code/qcbm_pennylane.py:24: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+  import cudaq
+
+==============================================================
+  lognormal_20q  (lognormal, 20q, 10L, SEL, MMD bw=[0.25, 0.5, 1.0], 1×3900 @lr0.005)
+  [resume] carried best_mmd=6.066598e-01 from 0 prior starts
+  start 1/1 (WARM from carried) ...
+    step    10/3900  KL=6.070086e-01  KL=0.6070  MMD=nan  best=6.066598e-01  43.601 s/step
+    step    20/3900  KL=6.066914e-01  KL=0.6067  MMD=nan  best=6.066598e-01  43.732 s/step
+    step    30/3900  KL=6.065016e-01  KL=0.6065  MMD=nan  best=6.065016e-01  43.940 s/step
+    step    40/3900  KL=6.064116e-01  KL=0.6064  MMD=nan  best=6.064116e-01  44.273 s/step
+    step    50/3900  KL=6.063427e-01  KL=0.6063  MMD=nan  best=6.063427e-01  44.327 s/step
+    step    60/3900  KL=6.062805e-01  KL=0.6063  MMD=nan  best=6.062805e-01  44.252 s/step
+    step    70/3900  KL=6.062218e-01  KL=0.6062  MMD=nan  best=6.062218e-01  44.216 s/step
+    step    80/3900  KL=6.061741e-01  KL=0.6062  MMD=nan  best=6.061741e-01  44.250 s/step
+    step    90/3900  KL=6.061238e-01  KL=0.6061  MMD=nan  best=6.061238e-01  44.499 s/step
+    step   100/3900  KL=6.060693e-01  KL=0.6061  MMD=nan  best=6.060693e-01  44.733 s/step
+    step   110/3900  KL=6.060032e-01  KL=0.6060  MMD=nan  best=6.060032e-01  44.936 s/step
+    step   120/3900  KL=6.059396e-01  KL=0.6059  MMD=nan  best=6.059396e-01  44.978 s/step
+    step   130/3900  KL=6.058750e-01  KL=0.6059  MMD=nan  best=6.058750e-01  44.968 s/step
+    step   140/3900  KL=6.058048e-01  KL=0.6058  MMD=nan  best=6.058048e-01  44.981 s/step
+    step   150/3900  KL=6.057506e-01  KL=0.6058  MMD=nan  best=6.057506e-01  44.984 s/step
+    step   160/3900  KL=6.056832e-01  KL=0.6057  MMD=nan  best=6.056832e-01  44.982 s/step
+    step   170/3900  KL=6.056072e-01  KL=0.6056  MMD=nan  best=6.056072e-01  45.004 s/step
+    step   180/3900  KL=6.055658e-01  KL=0.6056  MMD=nan  best=6.055634e-01  45.053 s/step
+    step   190/3900  KL=6.054763e-01  KL=0.6055  MMD=nan  best=6.054763e-01  45.088 s/step
+    step   200/3900  KL=6.053977e-01  KL=0.6054  MMD=nan  best=6.053977e-01  45.141 s/step
+    step   210/3900  KL=6.053333e-01  KL=0.6053  MMD=nan  best=6.053333e-01  45.192 s/step
+    step   220/3900  KL=6.052709e-01  KL=0.6053  MMD=nan  best=6.052709e-01  45.219 s/step
+    step   230/3900  KL=6.052295e-01  KL=0.6052  MMD=nan  best=6.052295e-01  45.261 s/step
+    step   240/3900  KL=6.051897e-01  KL=0.6052  MMD=nan  best=6.051897e-01  45.305 s/step
+    step   250/3900  KL=6.051670e-01  KL=0.6052  MMD=nan  best=6.051670e-01  45.347 s/step
+    step   260/3900  KL=6.051445e-01  KL=0.6051  MMD=nan  best=6.051445e-01  45.392 s/step
+    step   270/3900  KL=6.051267e-01  KL=0.6051  MMD=nan  best=6.051267e-01  45.435 s/step
+    step   280/3900  KL=6.051078e-01  KL=0.6051  MMD=nan  best=6.051078e-01  45.468 s/step
+    step   290/3900  KL=6.050899e-01  KL=0.6051  MMD=nan  best=6.050899e-01  45.489 s/step
+    step   300/3900  KL=6.050665e-01  KL=0.6051  MMD=nan  best=6.050665e-01  45.491 s/step
+    step   310/3900  KL=6.050400e-01  KL=0.6050  MMD=nan  best=6.050396e-01  45.490 s/step
+    step   320/3900  KL=6.050281e-01  KL=0.6050  MMD=nan  best=6.050111e-01  45.498 s/step
+    step   330/3900  KL=6.049758e-01  KL=0.6050  MMD=nan  best=6.049758e-01  45.513 s/step
+    step   340/3900  KL=6.049242e-01  KL=0.6049  MMD=nan  best=6.049242e-01  45.515 s/step
+    step   350/3900  KL=6.048886e-01  KL=0.6049  MMD=nan  best=6.048886e-01  45.526 s/step
+    step   360/3900  KL=6.048615e-01  KL=0.6049  MMD=nan  best=6.048615e-01  45.543 s/step
+    step   370/3900  KL=6.048257e-01  KL=0.6048  MMD=nan  best=6.048257e-01  45.552 s/step
+    step   380/3900  KL=6.047958e-01  KL=0.6048  MMD=nan  best=6.047958e-01  45.564 s/step
+    step   390/3900  KL=6.047758e-01  KL=0.6048  MMD=nan  best=6.047758e-01  45.577 s/step
+    step   400/3900  KL=6.047608e-01  KL=0.6048  MMD=nan  best=6.047608e-01  45.582 s/step
+    step   410/3900  KL=6.047406e-01  KL=0.6047  MMD=nan  best=6.047406e-01  45.608 s/step
+== attempt 2026-11-11T14:21:16-08:00 steps_already_done=410
+/path/to/scratch/selkl_8828096/code/qcbm_pennylane.py:24: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+  import cudaq
+
+==============================================================
+  lognormal_20q  (lognormal, 20q, 10L, SEL, MMD bw=[0.25, 0.5, 1.0], 1×3590 @lr0.005)
+  [resume] carried best_mmd=6.047406e-01 from 0 prior starts
+  start 1/1 (WARM from carried) ...
+    step    10/3590  KL=6.057853e-01  KL=0.6058  MMD=nan  best=6.047406e-01  44.032 s/step
+    step    20/3590  KL=6.050202e-01  KL=0.6050  MMD=nan  best=6.047406e-01  44.295 s/step
+    step    30/3590  KL=6.047987e-01  KL=0.6048  MMD=nan  best=6.047406e-01  44.364 s/step
+    step    40/3590  KL=6.046661e-01  KL=0.6047  MMD=nan  best=6.046661e-01  44.603 s/step
+    step    50/3590  KL=6.045687e-01  KL=0.6046  MMD=nan  best=6.045687e-01  44.626 s/step
+    step    60/3590  KL=6.045044e-01  KL=0.6045  MMD=nan  best=6.045044e-01  44.625 s/step
+    step    70/3590  KL=6.044510e-01  KL=0.6045  MMD=nan  best=6.044510e-01  44.628 s/step
+    step    80/3590  KL=6.044151e-01  KL=0.6044  MMD=nan  best=6.044151e-01  44.580 s/step
+    step    90/3590  KL=6.043887e-01  KL=0.6044  MMD=nan  best=6.043887e-01  44.538 s/step
+    step   100/3590  KL=6.043670e-01  KL=0.6044  MMD=nan  best=6.043670e-01  44.697 s/step
+    step   110/3590  KL=6.043447e-01  KL=0.6043  MMD=nan  best=6.043447e-01  44.886 s/step
+    step   120/3590  KL=6.043207e-01  KL=0.6043  MMD=nan  best=6.043207e-01  45.028 s/step
+    step   130/3590  KL=6.042955e-01  KL=0.6043  MMD=nan  best=6.042955e-01  45.144 s/step
+    step   140/3590  KL=6.042757e-01  KL=0.6043  MMD=nan  best=6.042757e-01  45.177 s/step
+    step   150/3590  KL=6.042633e-01  KL=0.6043  MMD=nan  best=6.042633e-01  45.206 s/step
+    step   160/3590  KL=6.042566e-01  KL=0.6043  MMD=nan  best=6.042566e-01  45.222 s/step
+    step   170/3590  KL=6.042516e-01  KL=0.6043  MMD=nan  best=6.042516e-01  45.243 s/step
+    step   180/3590  KL=6.042460e-01  KL=0.6042  MMD=nan  best=6.042460e-01  45.238 s/step
+    step   190/3590  KL=6.042404e-01  KL=0.6042  MMD=nan  best=6.042404e-01  45.228 s/step
+    step   200/3590  KL=6.042313e-01  KL=0.6042  MMD=nan  best=6.042313e-01  45.236 s/step
+    step   210/3590  KL=6.042197e-01  KL=0.6042  MMD=nan  best=6.042197e-01  45.263 s/step
+    step   220/3590  KL=6.042086e-01  KL=0.6042  MMD=nan  best=6.042086e-01  45.292 s/step
+    step   230/3590  KL=6.041973e-01  KL=0.6042  MMD=nan  best=6.041973e-01  45.300 s/step
+    step   240/3590  KL=6.041796e-01  KL=0.6042  MMD=nan  best=6.041796e-01  45.374 s/step
+    step   250/3590  KL=6.041635e-01  KL=0.6042  MMD=nan  best=6.041635e-01  45.402 s/step
+    step   260/3590  KL=6.041463e-01  KL=0.6041  MMD=nan  best=6.041463e-01  45.424 s/step
+    step   270/3590  KL=6.041335e-01  KL=0.6041  MMD=nan  best=6.041335e-01  45.444 s/step
+    step   280/3590  KL=6.041213e-01  KL=0.6041  MMD=nan  best=6.041213e-01  45.442 s/step
+    step   290/3590  KL=6.041126e-01  KL=0.6041  MMD=nan  best=6.041126e-01  45.477 s/step
+    step   300/3590  KL=6.041061e-01  KL=0.6041  MMD=nan  best=6.041061e-01  45.514 s/step
+    step   310/3590  KL=6.041010e-01  KL=0.6041  MMD=nan  best=6.041010e-01  45.553 s/step
+    step   320/3590  KL=6.040904e-01  KL=0.6041  MMD=nan  best=6.040904e-01  45.557 s/step
+    step   330/3590  KL=6.040768e-01  KL=0.6041  MMD=nan  best=6.040768e-01  45.568 s/step
+    step   340/3590  KL=6.040602e-01  KL=0.6041  MMD=nan  best=6.040602e-01  45.580 s/step
+    step   350/3590  KL=6.040385e-01  KL=0.6040  MMD=nan  best=6.040385e-01  45.586 s/step
+    step   360/3590  KL=6.040200e-01  KL=0.6040  MMD=nan  best=6.040200e-01  45.592 s/step
+    step   370/3590  KL=6.039977e-01  KL=0.6040  MMD=nan  best=6.039977e-01  45.622 s/step
+    step   380/3590  KL=6.039716e-01  KL=0.6040  MMD=nan  best=6.039716e-01  45.659 s/step
+    step   390/3590  KL=6.039519e-01  KL=0.6040  MMD=nan  best=6.039519e-01  45.700 s/step
+    step   400/3590  KL=6.039377e-01  KL=0.6039  MMD=nan  best=6.039377e-01  45.746 s/step
+    step   410/3590  KL=6.039253e-01  KL=0.6039  MMD=nan  best=6.039253e-01  45.789 s/step
+    step   420/3590  KL=6.039075e-01  KL=0.6039  MMD=nan  best=6.039075e-01  45.829 s/step
+    step   430/3590  KL=6.038953e-01  KL=0.6039  MMD=nan  best=6.038953e-01  45.868 s/step
+    step   440/3590  KL=6.038858e-01  KL=0.6039  MMD=nan  best=6.038858e-01  45.901 s/step
+    step   450/3590  KL=6.038805e-01  KL=0.6039  MMD=nan  best=6.038805e-01  45.925 s/step
+    step   460/3590  KL=6.038683e-01  KL=0.6039  MMD=nan  best=6.038683e-01  45.944 s/step
+    step   470/3590  KL=6.038597e-01  KL=0.6039  MMD=nan  best=6.038597e-01  45.973 s/step
+    step   480/3590  KL=6.038514e-01  KL=0.6039  MMD=nan  best=6.038514e-01  46.000 s/step
+    step   490/3590  KL=6.038427e-01  KL=0.6038  MMD=nan  best=6.038427e-01  46.020 s/step
+    step   500/3590  KL=6.038324e-01  KL=0.6038  MMD=nan  best=6.038324e-01  46.043 s/step
+    step   510/3590  KL=6.038263e-01  KL=0.6038  MMD=nan  best=6.038263e-01  46.069 s/step
+    step   520/3590  KL=6.038194e-01  KL=0.6038  MMD=nan  best=6.038194e-01  46.092 s/step
+    step   530/3590  KL=6.038136e-01  KL=0.6038  MMD=nan  best=6.038136e-01  46.119 s/step
+    step   540/3590  KL=6.038066e-01  KL=0.6038  MMD=nan  best=6.038066e-01  46.145 s/step
+    step   550/3590  KL=6.037903e-01  KL=0.6038  MMD=nan  best=6.037903e-01  46.169 s/step
+== attempt 2026-11-11T21:32:23-08:00 steps_already_done=550
+/path/to/scratch/selkl_8828096/code/qcbm_pennylane.py:24: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+  import cudaq
+
+==============================================================
+  lognormal_20q  (lognormal, 20q, 10L, SEL, MMD bw=[0.25, 0.5, 1.0], 1×3450 @lr0.005)
+  [resume] carried best_mmd=6.037903e-01 from 0 prior starts
+  start 1/1 (WARM from carried) ...
+    step    10/3450  KL=6.047186e-01  KL=0.6047  MMD=nan  best=6.037903e-01  42.319 s/step
+    step    20/3450  KL=6.040935e-01  KL=0.6041  MMD=nan  best=6.037903e-01  42.415 s/step
+    step    30/3450  KL=6.038724e-01  KL=0.6039  MMD=nan  best=6.037903e-01  42.596 s/step
+    step    40/3450  KL=6.037880e-01  KL=0.6038  MMD=nan  best=6.037880e-01  42.753 s/step
+    step    50/3450  KL=6.037440e-01  KL=0.6037  MMD=nan  best=6.037440e-01  42.814 s/step
+    step    60/3450  KL=6.037213e-01  KL=0.6037  MMD=nan  best=6.037213e-01  43.180 s/step
+    step    70/3450  KL=6.037083e-01  KL=0.6037  MMD=nan  best=6.037083e-01  43.444 s/step
+    step    80/3450  KL=6.036958e-01  KL=0.6037  MMD=nan  best=6.036958e-01  43.393 s/step
+    step    90/3450  KL=6.036837e-01  KL=0.6037  MMD=nan  best=6.036837e-01  43.352 s/step
+    step   100/3450  KL=6.036714e-01  KL=0.6037  MMD=nan  best=6.036714e-01  43.452 s/step
+    step   110/3450  KL=6.036589e-01  KL=0.6037  MMD=nan  best=6.036589e-01  43.485 s/step
+    step   120/3450  KL=6.036469e-01  KL=0.6036  MMD=nan  best=6.036469e-01  43.534 s/step
+    step   130/3450  KL=6.036361e-01  KL=0.6036  MMD=nan  best=6.036361e-01  43.559 s/step
+    step   140/3450  KL=6.036300e-01  KL=0.6036  MMD=nan  best=6.036300e-01  43.594 s/step
+    step   150/3450  KL=6.036237e-01  KL=0.6036  MMD=nan  best=6.036237e-01  43.608 s/step
+    step   160/3450  KL=6.036138e-01  KL=0.6036  MMD=nan  best=6.036138e-01  43.686 s/step
+    step   170/3450  KL=6.036013e-01  KL=0.6036  MMD=nan  best=6.036013e-01  43.802 s/step
+    step   180/3450  KL=6.035750e-01  KL=0.6036  MMD=nan  best=6.035750e-01  43.871 s/step
+    step   190/3450  KL=6.035343e-01  KL=0.6035  MMD=nan  best=6.035343e-01  43.976 s/step
+    step   200/3450  KL=6.034863e-01  KL=0.6035  MMD=nan  best=6.034863e-01  44.043 s/step
+    step   210/3450  KL=6.034235e-01  KL=0.6034  MMD=nan  best=6.034235e-01  44.107 s/step
+    step   220/3450  KL=6.033808e-01  KL=0.6034  MMD=nan  best=6.033808e-01  44.206 s/step
+    step   230/3450  KL=6.033395e-01  KL=0.6033  MMD=nan  best=6.033395e-01  44.284 s/step
+    step   240/3450  KL=6.033041e-01  KL=0.6033  MMD=nan  best=6.033041e-01  44.246 s/step
+    step   250/3450  KL=6.032820e-01  KL=0.6033  MMD=nan  best=6.032820e-01  44.239 s/step
+    step   260/3450  KL=6.032659e-01  KL=0.6033  MMD=nan  best=6.032659e-01  44.243 s/step
+    step   270/3450  KL=6.032505e-01  KL=0.6033  MMD=nan  best=6.032505e-01  44.218 s/step
+    step   280/3450  KL=6.032135e-01  KL=0.6032  MMD=nan  best=6.032135e-01  44.215 s/step
+    step   290/3450  KL=6.031856e-01  KL=0.6032  MMD=nan  best=6.031856e-01  44.234 s/step
+    step   300/3450  KL=6.031544e-01  KL=0.6032  MMD=nan  best=6.031544e-01  44.216 s/step
+    step   310/3450  KL=6.031200e-01  KL=0.6031  MMD=nan  best=6.031200e-01  44.206 s/step
+    step   320/3450  KL=6.030785e-01  KL=0.6031  MMD=nan  best=6.030785e-01  44.204 s/step
+    step   330/3450  KL=6.030362e-01  KL=0.6030  MMD=nan  best=6.030362e-01  44.213 s/step
+    step   340/3450  KL=6.029746e-01  KL=0.6030  MMD=nan  best=6.029746e-01  44.239 s/step
+    step   350/3450  KL=6.028795e-01  KL=0.6029  MMD=nan  best=6.028795e-01  44.263 s/step
+    step   360/3450  KL=6.028000e-01  KL=0.6028  MMD=nan  best=6.028000e-01  44.276 s/step
+    step   370/3450  KL=6.027340e-01  KL=0.6027  MMD=nan  best=6.027340e-01  44.280 s/step
+    step   380/3450  KL=6.026877e-01  KL=0.6027  MMD=nan  best=6.026877e-01  44.322 s/step
+    step   390/3450  KL=6.026467e-01  KL=0.6026  MMD=nan  best=6.026467e-01  44.367 s/step
+    step   400/3450  KL=6.026041e-01  KL=0.6026  MMD=nan  best=6.026041e-01  44.411 s/step
+    step   410/3450  KL=6.025544e-01  KL=0.6026  MMD=nan  best=6.025544e-01  44.460 s/step
+    step   420/3450  KL=6.025202e-01  KL=0.6025  MMD=nan  best=6.025202e-01  44.508 s/step
+    step   430/3450  KL=6.024976e-01  KL=0.6025  MMD=nan  best=6.024976e-01  44.555 s/step
+== attempt 2026-11-14T03:22:22-08:00 steps_already_done=3060
+/path/to/scratch/selkl_9015307/code/qcbm_pennylane.py:24: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+  import cudaq
+
+==============================================================
+  lognormal_20q  (lognormal, 20q, 10L, SEL, MMD bw=[0.25, 0.5, 1.0], 1×940 @lr0.005)
+  [resume] carried best_mmd=6.024976e-01 from 0 prior starts
+  start 1/1 (WARM from carried) ...
+    step    10/940  KL=6.031968e-01  KL=0.6032  MMD=nan  best=6.024976e-01  42.881 s/step
+    step    20/940  KL=6.026864e-01  KL=0.6027  MMD=nan  best=6.024976e-01  43.015 s/step
+    step    30/940  KL=6.024752e-01  KL=0.6025  MMD=nan  best=6.024752e-01  43.105 s/step
+    step    40/940  KL=6.023791e-01  KL=0.6024  MMD=nan  best=6.023791e-01  43.393 s/step
+    step    50/940  KL=6.023226e-01  KL=0.6023  MMD=nan  best=6.023226e-01  43.368 s/step
+    step    60/940  KL=6.022898e-01  KL=0.6023  MMD=nan  best=6.022898e-01  43.361 s/step
+    step    70/940  KL=6.022727e-01  KL=0.6023  MMD=nan  best=6.022727e-01  43.421 s/step
+    step    80/940  KL=6.022633e-01  KL=0.6023  MMD=nan  best=6.022633e-01  43.400 s/step
+    step    90/940  KL=6.022540e-01  KL=0.6023  MMD=nan  best=6.022540e-01  43.629 s/step
+    step   100/940  KL=6.022466e-01  KL=0.6022  MMD=nan  best=6.022466e-01  43.787 s/step
+    step   110/940  KL=6.022387e-01  KL=0.6022  MMD=nan  best=6.022387e-01  43.817 s/step
+    step   120/940  KL=6.022301e-01  KL=0.6022  MMD=nan  best=6.022301e-01  43.832 s/step
+    step   130/940  KL=6.022215e-01  KL=0.6022  MMD=nan  best=6.022215e-01  43.808 s/step
+    step   140/940  KL=6.022099e-01  KL=0.6022  MMD=nan  best=6.022099e-01  43.789 s/step
+    step   150/940  KL=6.021954e-01  KL=0.6022  MMD=nan  best=6.021954e-01  43.823 s/step
+    step   160/940  KL=6.021877e-01  KL=0.6022  MMD=nan  best=6.021877e-01  43.820 s/step
+    step   170/940  KL=6.021828e-01  KL=0.6022  MMD=nan  best=6.021828e-01  43.845 s/step
+    step   180/940  KL=6.022109e-01  KL=0.6022  MMD=nan  best=6.021813e-01  43.891 s/step
+    step   190/940  KL=6.021758e-01  KL=0.6022  MMD=nan  best=6.021758e-01  43.952 s/step
+    step   200/940  KL=6.021726e-01  KL=0.6022  MMD=nan  best=6.021726e-01  43.982 s/step
+    step   210/940  KL=6.021679e-01  KL=0.6022  MMD=nan  best=6.021675e-01  44.012 s/step
+    step   220/940  KL=6.021625e-01  KL=0.6022  MMD=nan  best=6.021625e-01  44.062 s/step
+    step   230/940  KL=6.021592e-01  KL=0.6022  MMD=nan  best=6.021592e-01  44.114 s/step
+    step   240/940  KL=6.021560e-01  KL=0.6022  MMD=nan  best=6.021560e-01  44.135 s/step
+    step   250/940  KL=6.021532e-01  KL=0.6022  MMD=nan  best=6.021532e-01  44.162 s/step
+    step   260/940  KL=6.021507e-01  KL=0.6022  MMD=nan  best=6.021507e-01  44.180 s/step
+    step   270/940  KL=6.021475e-01  KL=0.6021  MMD=nan  best=6.021475e-01  44.192 s/step
+    step   280/940  KL=6.021439e-01  KL=0.6021  MMD=nan  best=6.021439e-01  44.203 s/step
+    step   290/940  KL=6.021406e-01  KL=0.6021  MMD=nan  best=6.021406e-01  44.237 s/step
+    step   300/940  KL=6.021379e-01  KL=0.6021  MMD=nan  best=6.021379e-01  44.241 s/step
+    step   310/940  KL=6.021365e-01  KL=0.6021  MMD=nan  best=6.021363e-01  44.240 s/step
+    step   320/940  KL=6.021404e-01  KL=0.6021  MMD=nan  best=6.021363e-01  44.234 s/step
+    step   330/940  KL=6.021369e-01  KL=0.6021  MMD=nan  best=6.021355e-01  44.247 s/step
+    step   340/940  KL=6.021305e-01  KL=0.6021  MMD=nan  best=6.021305e-01  44.271 s/step
+    step   350/940  KL=6.021294e-01  KL=0.6021  MMD=nan  best=6.021294e-01  44.284 s/step
+    step   360/940  KL=6.021252e-01  KL=0.6021  MMD=nan  best=6.021252e-01  44.310 s/step
+    step   370/940  KL=6.021201e-01  KL=0.6021  MMD=nan  best=6.021201e-01  44.324 s/step
+    step   380/940  KL=6.021126e-01  KL=0.6021  MMD=nan  best=6.021126e-01  44.359 s/step
+    step   390/940  KL=6.021041e-01  KL=0.6021  MMD=nan  best=6.021041e-01  44.388 s/step
+    step   400/940  KL=6.020962e-01  KL=0.6021  MMD=nan  best=6.020962e-01  44.415 s/step
+    step   410/940  KL=6.020981e-01  KL=0.6021  MMD=nan  best=6.020933e-01  44.476 s/step
+    step   420/940  KL=6.020832e-01  KL=0.6021  MMD=nan  best=6.020832e-01  44.520 s/step
+    step   430/940  KL=6.020671e-01  KL=0.6021  MMD=nan  best=6.020671e-01  44.560 s/step
+    step   440/940  KL=6.020467e-01  KL=0.6020  MMD=nan  best=6.020467e-01  44.605 s/step
+    step   450/940  KL=6.020360e-01  KL=0.6020  MMD=nan  best=6.020360e-01  44.656 s/step
+    step   460/940  KL=6.020305e-01  KL=0.6020  MMD=nan  best=6.020305e-01  44.700 s/step
+    step   470/940  KL=6.020339e-01  KL=0.6020  MMD=nan  best=6.020305e-01  44.744 s/step
+    step   480/940  KL=6.020213e-01  KL=0.6020  MMD=nan  best=6.020213e-01  44.776 s/step
+    step   490/940  KL=6.020147e-01  KL=0.6020  MMD=nan  best=6.020147e-01  44.819 s/step
+    step   500/940  KL=6.020030e-01  KL=0.6020  MMD=nan  best=6.020030e-01  44.861 s/step
+    step   510/940  KL=6.019962e-01  KL=0.6020  MMD=nan  best=6.019962e-01  44.898 s/step
+    step   520/940  KL=6.019859e-01  KL=0.6020  MMD=nan  best=6.019859e-01  44.934 s/step
+    step   530/940  KL=6.019791e-01  KL=0.6020  MMD=nan  best=6.019791e-01  44.965 s/step
+    step   540/940  KL=6.019747e-01  KL=0.6020  MMD=nan  best=6.019747e-01  44.999 s/step
+    step   550/940  KL=6.019848e-01  KL=0.6020  MMD=nan  best=6.019739e-01  45.027 s/step
+    step   560/940  KL=6.019691e-01  KL=0.6020  MMD=nan  best=6.019644e-01  45.061 s/step
+    step   570/940  KL=6.019531e-01  KL=0.6020  MMD=nan  best=6.019531e-01  45.091 s/step
+    step   580/940  KL=6.019486e-01  KL=0.6019  MMD=nan  best=6.019486e-01  45.124 s/step
+    step   590/940  KL=6.019310e-01  KL=0.6019  MMD=nan  best=6.019310e-01  45.148 s/step
+    step   600/940  KL=6.019145e-01  KL=0.6019  MMD=nan  best=6.019145e-01  45.174 s/step
+    step   610/940  KL=6.018932e-01  KL=0.6019  MMD=nan  best=6.018932e-01  45.197 s/step
+== attempt 2026-11-14T13:12:28-08:00 steps_already_done=3060
+/path/to/scratch/selkl_9015307/code/qcbm_pennylane.py:24: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+  import cudaq
+
+==============================================================
+  lognormal_20q  (lognormal, 20q, 10L, SEL, MMD bw=[0.25, 0.5, 1.0], 1×940 @lr0.005)
+  [resume] carried best_mmd=6.018932e-01 from 0 prior starts
+  start 1/1 (WARM from carried) ...
+    step    10/940  KL=6.028171e-01  KL=0.6028  MMD=nan  best=6.018932e-01  46.343 s/step
+    step    20/940  KL=6.022026e-01  KL=0.6022  MMD=nan  best=6.018932e-01  46.556 s/step
+    step    30/940  KL=6.020013e-01  KL=0.6020  MMD=nan  best=6.018932e-01  46.453 s/step
+    step    40/940  KL=6.019195e-01  KL=0.6019  MMD=nan  best=6.018932e-01  46.591 s/step
+    step    50/940  KL=6.018810e-01  KL=0.6019  MMD=nan  best=6.018810e-01  46.277 s/step
+    step    60/940  KL=6.018604e-01  KL=0.6019  MMD=nan  best=6.018604e-01  46.241 s/step
+    step    70/940  KL=6.018492e-01  KL=0.6018  MMD=nan  best=6.018492e-01  46.299 s/step
+    step    80/940  KL=6.018409e-01  KL=0.6018  MMD=nan  best=6.018409e-01  46.340 s/step
+    step    90/940  KL=6.018347e-01  KL=0.6018  MMD=nan  best=6.018347e-01  46.419 s/step
+    step   100/940  KL=6.018282e-01  KL=0.6018  MMD=nan  best=6.018282e-01  46.531 s/step
+    step   110/940  KL=6.018195e-01  KL=0.6018  MMD=nan  best=6.018195e-01  46.634 s/step
+    step   120/940  KL=6.018044e-01  KL=0.6018  MMD=nan  best=6.018044e-01  46.671 s/step
+    step   130/940  KL=6.017890e-01  KL=0.6018  MMD=nan  best=6.017890e-01  46.674 s/step
+    step   140/940  KL=6.017702e-01  KL=0.6018  MMD=nan  best=6.017702e-01  46.672 s/step
+    step   150/940  KL=6.017476e-01  KL=0.6017  MMD=nan  best=6.017476e-01  46.640 s/step
+    step   160/940  KL=6.017280e-01  KL=0.6017  MMD=nan  best=6.017280e-01  46.641 s/step
+    step   170/940  KL=6.017062e-01  KL=0.6017  MMD=nan  best=6.017062e-01  46.675 s/step
+    step   180/940  KL=6.016855e-01  KL=0.6017  MMD=nan  best=6.016855e-01  46.724 s/step
+    step   190/940  KL=6.016721e-01  KL=0.6017  MMD=nan  best=6.016721e-01  46.774 s/step
+    step   200/940  KL=6.016611e-01  KL=0.6017  MMD=nan  best=6.016611e-01  46.837 s/step
+    step   210/940  KL=6.016420e-01  KL=0.6016  MMD=nan  best=6.016420e-01  46.921 s/step
+    step   220/940  KL=6.016230e-01  KL=0.6016  MMD=nan  best=6.016230e-01  46.977 s/step
+    step   230/940  KL=6.016096e-01  KL=0.6016  MMD=nan  best=6.016096e-01  47.049 s/step
+    step   240/940  KL=6.015991e-01  KL=0.6016  MMD=nan  best=6.015991e-01  47.113 s/step
+    step   250/940  KL=6.015903e-01  KL=0.6016  MMD=nan  best=6.015903e-01  47.156 s/step
+    step   260/940  KL=6.015842e-01  KL=0.6016  MMD=nan  best=6.015842e-01  47.218 s/step
+    step   270/940  KL=6.015803e-01  KL=0.6016  MMD=nan  best=6.015803e-01  47.275 s/step
+    step   280/940  KL=6.015778e-01  KL=0.6016  MMD=nan  best=6.015778e-01  47.307 s/step
+    step   290/940  KL=6.015760e-01  KL=0.6016  MMD=nan  best=6.015760e-01  47.307 s/step
+    step   300/940  KL=6.015745e-01  KL=0.6016  MMD=nan  best=6.015745e-01  47.305 s/step
+    step   310/940  KL=6.015733e-01  KL=0.6016  MMD=nan  best=6.015733e-01  47.317 s/step
+    step   320/940  KL=6.015720e-01  KL=0.6016  MMD=nan  best=6.015720e-01  47.336 s/step
+    step   330/940  KL=6.015709e-01  KL=0.6016  MMD=nan  best=6.015709e-01  47.350 s/step
+    step   340/940  KL=6.015696e-01  KL=0.6016  MMD=nan  best=6.015696e-01  47.361 s/step
+    step   350/940  KL=6.015687e-01  KL=0.6016  MMD=nan  best=6.015683e-01  47.395 s/step
+    step   360/940  KL=6.015694e-01  KL=0.6016  MMD=nan  best=6.015667e-01  47.418 s/step
+    step   370/940  KL=6.015655e-01  KL=0.6016  MMD=nan  best=6.015649e-01  47.452 s/step
+== attempt 2026-11-14T21:40:45-08:00 steps_already_done=3060
+/path/to/scratch/selkl_9015307/code/qcbm_pennylane.py:24: FutureWarning: The CUDA-Q `sample` and `observe` algorithmic primitives will change in a future release. Existing code may require updates. See https://nvidia.github.io/cuda-quantum/latest/using/migration/upcoming_changes.html for details.
+  import cudaq
+
+==============================================================
+  lognormal_20q  (lognormal, 20q, 10L, SEL, MMD bw=[0.25, 0.5, 1.0], 1×940 @lr0.005)
+  [resume] carried best_mmd=6.015649e-01 from 0 prior starts
+  start 1/1 (WARM from carried) ...
+    step    10/940  KL=6.024611e-01  KL=0.6025  MMD=nan  best=6.015649e-01  44.396 s/step
+    step    20/940  KL=6.018495e-01  KL=0.6018  MMD=nan  best=6.015649e-01  44.337 s/step
+    step    30/940  KL=6.016837e-01  KL=0.6017  MMD=nan  best=6.015649e-01  44.559 s/step
+    step    40/940  KL=6.016161e-01  KL=0.6016  MMD=nan  best=6.015649e-01  44.733 s/step
+    step    50/940  KL=6.015838e-01  KL=0.6016  MMD=nan  best=6.015649e-01  44.995 s/step
+    step    60/940  KL=6.015679e-01  KL=0.6016  MMD=nan  best=6.015649e-01  45.131 s/step
+    step    70/940  KL=6.015576e-01  KL=0.6016  MMD=nan  best=6.015576e-01  45.074 s/step
+    step    80/940  KL=6.015522e-01  KL=0.6016  MMD=nan  best=6.015522e-01  45.061 s/step
+    step    90/940  KL=6.015493e-01  KL=0.6015  MMD=nan  best=6.015493e-01  45.059 s/step
+    step   100/940  KL=6.015473e-01  KL=0.6015  MMD=nan  best=6.015473e-01  44.944 s/step
+    step   110/940  KL=6.015456e-01  KL=0.6015  MMD=nan  best=6.015456e-01  44.907 s/step
+    step   120/940  KL=6.015442e-01  KL=0.6015  MMD=nan  best=6.015442e-01  44.891 s/step
+    step   130/940  KL=6.015429e-01  KL=0.6015  MMD=nan  best=6.015429e-01  45.074 s/step
+    step   140/940  KL=6.015417e-01  KL=0.6015  MMD=nan  best=6.015417e-01  45.247 s/step
+    step   150/940  KL=6.015405e-01  KL=0.6015  MMD=nan  best=6.015405e-01  45.397 s/step
+    step   160/940  KL=6.015393e-01  KL=0.6015  MMD=nan  best=6.015393e-01  45.515 s/step
+    step   170/940  KL=6.015382e-01  KL=0.6015  MMD=nan  best=6.015382e-01  45.567 s/step
+    step   180/940  KL=6.015371e-01  KL=0.6015  MMD=nan  best=6.015371e-01  45.537 s/step
+    step   190/940  KL=6.015360e-01  KL=0.6015  MMD=nan  best=6.015360e-01  45.535 s/step
+    step   200/940  KL=6.015348e-01  KL=0.6015  MMD=nan  best=6.015348e-01  45.512 s/step
+    step   210/940  KL=6.015336e-01  KL=0.6015  MMD=nan  best=6.015336e-01  45.517 s/step
+    step   220/940  KL=6.015322e-01  KL=0.6015  MMD=nan  best=6.015322e-01  45.496 s/step
+    step   230/940  KL=6.015290e-01  KL=0.6015  MMD=nan  best=6.015290e-01  45.490 s/step
+    step   240/940  KL=6.015235e-01  KL=0.6015  MMD=nan  best=6.015235e-01  45.455 s/step
+    step   250/940  KL=6.015184e-01  KL=0.6015  MMD=nan  best=6.015184e-01  45.441 s/step
+    step   260/940  KL=6.015156e-01  KL=0.6015  MMD=nan  best=6.015156e-01  45.448 s/step
+    step   270/940  KL=6.015131e-01  KL=0.6015  MMD=nan  best=6.015131e-01  45.413 s/step
+    step   280/940  KL=6.015108e-01  KL=0.6015  MMD=nan  best=6.015108e-01  45.403 s/step
+    step   290/940  KL=6.015090e-01  KL=0.6015  MMD=nan  best=6.015090e-01  45.399 s/step
+    step   300/940  KL=6.015063e-01  KL=0.6015  MMD=nan  best=6.015063e-01  45.442 s/step
+    step   310/940  KL=6.015032e-01  KL=0.6015  MMD=nan  best=6.015032e-01  45.480 s/step
+    step   320/940  KL=6.015008e-01  KL=0.6015  MMD=nan  best=6.015008e-01  45.518 s/step
+    step   330/940  KL=6.014991e-01  KL=0.6015  MMD=nan  best=6.014991e-01  45.562 s/step
+    step   340/940  KL=6.014967e-01  KL=0.6015  MMD=nan  best=6.014967e-01  45.558 s/step
+    step   350/940  KL=6.014927e-01  KL=0.6015  MMD=nan  best=6.014927e-01  45.563 s/step
+    step   360/940  KL=6.014888e-01  KL=0.6015  MMD=nan  best=6.014888e-01  45.573 s/step

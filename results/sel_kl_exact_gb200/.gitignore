@@ -1,0 +1,5 @@
+# Raw re-run record: keep every log, Slurm .out/.err and logs/ folder (ignored repo-wide)
+!logs/
+!*.log
+!*.out
+!*.err

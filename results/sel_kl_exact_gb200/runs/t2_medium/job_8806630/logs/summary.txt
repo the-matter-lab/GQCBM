@@ -1,0 +1,6 @@
+qcbmpl_v2_kl_bas9_9q.json                kl_grad=exact best_kl=0.02103 partial=False starts_done=1 elapsed=9311s
+qcbmpl_v2_kl_cardinality_10q.json        kl_grad=exact best_kl=0.69199 partial=False starts_done=1 elapsed=4207s
+qcbmpl_v2_kl_ghz10_10q.json              kl_grad=exact best_kl=-0.00000 partial=False starts_done=1 elapsed=5741s
+qcbmpl_v3_kl_bas9_9q.json                kl_grad=exact best_kl=0.01150 partial=False starts_done=2 elapsed=6168s
+qcbmpl_v3_kl_cardinality_10q.json        kl_grad=exact best_kl=0.69199 partial=False starts_done=2 elapsed=2496s
+qcbmpl_v3_kl_ghz10_10q.json              kl_grad=exact best_kl=-0.00000 partial=False starts_done=2 elapsed=2219s

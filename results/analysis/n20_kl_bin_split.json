@@ -1,0 +1,110 @@
+[
+ {
+  "family": "gauss",
+  "method": "G-QCBM+KL",
+  "kl_total": 0.009301225348199563,
+  "kl_between_bins": 0.009303959955826585,
+  "kl_within_bins": -2.7346076270223785e-06,
+  "within_fraction": -0.0002940050933774781,
+  "n_bins": 512
+ },
+ {
+  "family": "gauss",
+  "method": "V-QCBM+KL",
+  "kl_total": 0.5366752,
+  "kl_between_bins": 0.009164110692081945,
+  "kl_within_bins": 0.5275110893079181,
+  "within_fraction": 0.9829242888583599,
+  "n_bins": 512
+ },
+ {
+  "family": "gauss",
+  "method": "V-QCBM+MMD",
+  "kl_total": 0.6095464005693697,
+  "kl_between_bins": 0.035857956491998945,
+  "kl_within_bins": 0.5736884440773707,
+  "within_fraction": 0.9411727204713136,
+  "n_bins": 512
+ },
+ {
+  "family": "bimodal",
+  "method": "G-QCBM+KL",
+  "kl_total": 0.0027844582218676805,
+  "kl_between_bins": 0.002883051139576792,
+  "kl_within_bins": -9.85929177091116e-05,
+  "within_fraction": -0.035408294847024215,
+  "n_bins": 512
+ },
+ {
+  "family": "bimodal",
+  "method": "V-QCBM+KL",
+  "kl_total": 0.5726744,
+  "kl_between_bins": 0.029607905288830158,
+  "kl_within_bins": 0.5430664947111699,
+  "within_fraction": 0.9482988845165242,
+  "n_bins": 512
+ },
+ {
+  "family": "bimodal",
+  "method": "V-QCBM+MMD",
+  "kl_total": 0.5798408301270972,
+  "kl_between_bins": 0.0015924499992562315,
+  "kl_within_bins": 0.578248380127841,
+  "within_fraction": 0.9972536428679796,
+  "n_bins": 512
+ },
+ {
+  "family": "exp",
+  "method": "G-QCBM+KL",
+  "kl_total": 0.0030978138092905283,
+  "kl_between_bins": 0.003199310149697199,
+  "kl_within_bins": -0.0001014963404066707,
+  "within_fraction": -0.0327638607918517,
+  "n_bins": 512
+ },
+ {
+  "family": "exp",
+  "method": "V-QCBM+KL",
+  "kl_total": 0.9221781,
+  "kl_between_bins": 0.3833016169448022,
+  "kl_within_bins": 0.5388764830551978,
+  "within_fraction": 0.5843518546528027,
+  "n_bins": 512
+ },
+ {
+  "family": "exp",
+  "method": "V-QCBM+MMD",
+  "kl_total": 0.9527059092949132,
+  "kl_between_bins": 0.3594712698476348,
+  "kl_within_bins": 0.5932346394472784,
+  "within_fraction": 0.6226839087062288,
+  "n_bins": 512
+ },
+ {
+  "family": "lognormal",
+  "method": "G-QCBM+KL",
+  "kl_total": 0.04407450556755066,
+  "kl_between_bins": 0.044109916674846865,
+  "kl_within_bins": -3.5411107296205724e-05,
+  "within_fraction": -0.0008034374257910391,
+  "n_bins": 512
+ },
+ {
+  "family": "lognormal",
+  "method": "V-QCBM+KL",
+  "kl_total": 0.6015709,
+  "kl_between_bins": 0.05938642616764256,
+  "kl_within_bins": 0.5421844738323575,
+  "within_fraction": 0.9012810856249155,
+  "n_bins": 512
+ },
+ {
+  "family": "lognormal",
+  "method": "V-QCBM+MMD",
+  "kl_total": 0.6474632635583357,
+  "kl_between_bins": 0.08929814114637488,
+  "kl_within_bins": 0.5581651224119608,
+  "within_fraction": 0.8620799878967508,
+  "n_bins": 512
+ }
+]

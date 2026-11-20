@@ -1,0 +1,6 @@
+qcbm_nc_10q_lr0.01.json                  kl_grad=exact best_kl=0.15418 partial=False starts_done=1 elapsed=4650s
+qcbm_nc_10q_lr0.03.json                  kl_grad=exact best_kl=0.10707 partial=False starts_done=1 elapsed=4649s
+qcbm_nc_15q_lr0.01.json                  kl_grad=exact best_kl=0.59994 partial=False starts_done=1 elapsed=5347s
+qcbm_nc_15q_lr0.03.json                  kl_grad=exact best_kl=0.59972 partial=False starts_done=1 elapsed=5329s
+qcbm_nc_5q_lr0.01.json                   kl_grad=exact best_kl=-0.00000 partial=False starts_done=1 elapsed=4365s
+qcbm_nc_5q_lr0.03.json                   kl_grad=exact best_kl=-0.00000 partial=False starts_done=1 elapsed=4360s
