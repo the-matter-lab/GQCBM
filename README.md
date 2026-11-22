@@ -55,6 +55,7 @@ scripts/                    SLURM job scripts that trained each checkpoint and r
 results/                    V-QCBM result files, circuit_stats.json, analysis outputs
 results/sel_kl_exact_gb200/ raw outputs of the exact-gradient V-QCBM+KL runs (cell map in its README)
 gqe_experiments/            training logs read by Fig. S13
+paper/gqcbm_preprint.pdf    preprint of the paper (main text + Supplementary Information)
 paper/figs/                 figure PDFs as submitted
 paper/figure_data/          CSVs behind each figure
 ```
