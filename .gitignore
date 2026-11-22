@@ -23,6 +23,7 @@ diagram_training_methods.png
 *.pdf
 !paper/figs/*.pdf
 !paper/figs/**/*.pdf
+!paper/gqcbm_preprint.pdf
 
 # Old run directories
 run_2026*/
