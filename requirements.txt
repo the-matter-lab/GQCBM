@@ -7,5 +7,7 @@ cupy-cuda12x==13.6.0
 numpy==1.26.4
 scipy==1.13.1
 matplotlib==3.9.4
+# Downloads the checkpoints from Hugging Face (scripts/download_ckpts.py)
+huggingface_hub==1.8.0
 # Optional: PDF rendering for comparing regenerated figures (not needed by training/eval)
 pymupdf==1.26.5

@@ -19,8 +19,8 @@ import sys
 from huggingface_hub import hf_hub_download, snapshot_download
 
 REPO_ID = 'the-matter-lab/GQCBM'
-# Hugging Face commit holding every checkpoint the paper uses (29 files, see REPRODUCE.md).
-DEFAULT_REVISION = 'f3d35c17183b0cb3792cfd1488f5f90b83ddcff7'
+# Hugging Face commit holding every checkpoint the paper uses (52 files, see REPRODUCE.md).
+DEFAULT_REVISION = '8db9570cb8f394c620ca8cdd66004ab72224de8f'
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 

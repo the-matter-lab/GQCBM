@@ -10,7 +10,7 @@ repository root. Environment and training are described in `README.md`.
   Needs `numpy`, `scipy`, `matplotlib`.
 - **CPU + ckpt**: re-simulates circuits stored in G-QCBM checkpoints with NumPy on CPU (needs `torch` to
   load them). Fetch the checkpoints first: `pip install huggingface_hub && python scripts/download_ckpts.py`
-  (Hugging Face [`the-matter-lab/GQCBM`](https://huggingface.co/the-matter-lab/GQCBM), 29 files, 0.47 GB,
+  (Hugging Face [`the-matter-lab/GQCBM`](https://huggingface.co/the-matter-lab/GQCBM), 52 checkpoints, 1.08 GB,
   SHA-256-checked). Each of these scripts also has a CPU path that plots the CSV it writes.
 - **GPU**: needs CUDA-Q on an NVIDIA GPU. Only used to rebuild `results/circuit_stats.json` and a few
   Level-2 CSVs; no figure or table needs it, because the outputs are in the repository.
@@ -27,8 +27,8 @@ Figure PDFs as submitted are in `paper/figs/`.
 | Fig. 2 `fig:circuits` | `paper/figs/fig_circuits_exp_n10.pdf` | `python make_fig_circuits.py --from-csv` (or `--ckpt-dir ckpts --case exp_n10`) | `paper/figure_data/fig_circuits_exp_n10.csv`; G-QCBM circuit from `ckpts/gqe_exp_10q_g20.pt`, V-QCBM layer count from the Table 1 n=10 V-QCBM+KL run | CPU (+ckpt) |
 | Fig. 3 `fig:bimodal20_3way` | `paper/figs/fig2_n20_4dist.pdf` | `python make_fig_continuous_grid.py --from-csv`, then `python make_fig2_n20.py` | n=20 rows of `paper/figure_data/fig_continuous_grid.csv` (rebuilt by `make_fig_continuous_grid.py --ckpt-dir ckpts` from `ckpts/gqe_{gauss,exp,lognormal}_20q.pt`, `paper/figure_data/fig2_bimodal20_3way.csv`, `results/sel_kl_exact_gb200/runs/t1_n20_aligned/job_9015307/`, `results/qcbm_n20m2_mmd_*_20q.json`) | CPU (+ckpt) |
 | Fig. 4 `fig:cx_vs_kl` | `paper/figs/fig_cx_vs_kl_pairs_n20.pdf` | `python make_fig_cx_vs_kl_pairs.py` (also writes Fig. S3) | `results/circuit_stats.json`; n=20 V-QCBM+KL at step 4,000 from `results/sel_kl_exact_gb200/runs/t1_n20_aligned/job_9015307/logs/`. Data: `paper/figure_data/fig_cx_vs_kl_pairs.csv` | CPU |
-| Table 1 `tab:continuous` | in manuscript | `python make_tables.py continuous` | `results/circuit_stats.json` (G-QCBM checkpoints †, V-QCBM result files); n=20 V-QCBM+KL from the run logs as in Fig. 4 | CPU |
-| Table 2 `tab:discrete` | in manuscript | `python make_tables.py discrete` | `results/circuit_stats.json` † | CPU |
+| Table 1 `tab:continuous` | in manuscript | `python make_tables.py continuous` | `results/circuit_stats.json` (G-QCBM checkpoints, V-QCBM result files); n=20 V-QCBM+KL from the run logs as in Fig. 4 | CPU |
+| Table 2 `tab:discrete` | in manuscript | `python make_tables.py discrete` | `results/circuit_stats.json` | CPU |
 | Table 3 `tab:kl_vs_mmd` | in manuscript | none: definitions | none | none |
 
 `results/circuit_stats.json` is rebuilt by `python compute_circuit_stats.py` (GPU, CUDA-Q; reads every
@@ -51,21 +51,15 @@ checkpoint and result file named in its `ENTRIES`), or `--sel-only` to refresh o
 | Fig. S11 `fig:s10_budget` | `paper/figs/fig_s10_5_budget.pdf` | `python make_supp_figures.py budget` | `results/sel_kl_exact_gb200/runs/figS4/job_8803247/results/qcbm_nc_*.json` → `paper/figure_data/fig_s10_5_qcbm_budget.csv` | CPU |
 | Fig. S12 `fig:s10_random` | `paper/figs/fig_s10_3_random.pdf` | `python make_supp_figures.py random` | `paper/figure_data/fig_s10_3_random_baseline.csv` (from `results/random_baseline.json` via `export_figure_data.py`). The n=5 G-QCBM+KL reference 0.0016 is the best of five seeds of `scripts/run_multiseed_5q.sh` (job 39630), reproduced by rerun job 796452 (`ckpts/seed_5q_123_rerun.pt`, `best_kl` 0.001642; logs on Hugging Face under `logs/`) | CPU |
 | Fig. S13 `fig:nsweep` | `paper/figs/fig_15q_Nsweep.pdf` | `python make_15q_Nsweep.py` | `gqe_experiments/15q_N{10,20,40,60,80,100}/log.json` | CPU |
-| Fig. S14 `fig:s10_beta` | `paper/figs/fig_s10_2_beta.pdf` | `python make_supp_figures.py beta` | `paper/figure_data/fig_s10_2_beta_sweep.csv` (from the `beta_*.pt` checkpoints of `scripts/archive/run_beta_sweep.sh` †) | CPU |
+| Fig. S14 `fig:s10_beta` | `paper/figs/fig_s10_2_beta.pdf` | `python make_supp_figures.py beta` | `paper/figure_data/fig_s10_2_beta_sweep.csv` (from the `beta_*.pt` checkpoints of `scripts/archive/run_beta_sweep.sh`) | CPU |
 | Table S1 `tab:n20_protocol` | in manuscript | `python make_tables.py n20_protocol` | KL: `results/sel_kl_exact_gb200/runs/t1_n20/job_8803244/` (multi-cycle) and `t1_n20_aligned/job_9015307/logs/` (single-trajectory, step 4,000). Steps and wall-clock: `logs/summary.txt` and `logs/*.log` in the same folders | CPU |
 | Table S2 `tab:abl_ngates` | in manuscript | `python make_tables.py ngates` | `paper/figs/fig_ngates_sweep.csv`, rebuilt by `python make_ngates_sweep.py` from `ckpts/gqe_gauss_{10,15,20}q_g{20,30,50}.pt` and `ckpts/gqe_gauss_20q.pt` | CPU (+ckpt) |
 | Tables S3–S6 `tab:arch`, `tab:buffer`, `tab:hyperparams`, `tab:per_experiment` | in manuscript | none: configuration | defaults in `gqe_single_target.py`, `qcbm_pennylane.py`; per-run flags in `scripts/run_*.sh` | none |
 
-† **Checkpoints not on Hugging Face.** The values these rows print come from `results/circuit_stats.json`
-and the CSVs in this repository, but the following checkpoints were not uploaded: the twelve G-QCBM+MMD
-checkpoints of Table 1 (`gqe_mmd{10,15,20}_*`), and `gqe_ghz5`, `gqe_sym_card_5q`, `gqe_symMMD_card_5q`,
-`gqe_symMMD_card_10q` and `gqe_symMMD_bas9_9q` (Table 2), and `beta_*` (Fig. S14). Their training scripts
-are listed below.
-
 ## Training scripts (how each checkpoint and result file was made)
 
 Each job script below wrote checkpoints (`ckpts/*.pt`, on Hugging Face) or result files (`results/*.json`)
-that the figures and tables above read (checkpoints marked † in the tables above are not on Hugging Face). The mapping comes from expanding every script's loops and variables
+that the figures and tables above read. The mapping comes from expanding every script's loops and variables
 (including the `NQ`, `LOSS` and `SWEEP_*` settings each script takes) and matching their output paths. Scripts
 that produced nothing the paper uses were removed.
 
